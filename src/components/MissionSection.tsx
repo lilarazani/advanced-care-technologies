@@ -14,8 +14,8 @@ const MissionSection = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1 */}
             <div className="relative">
-              {/* Image positionnée dans l'encoche */}
-              <div className="absolute -top-6 left-12 z-10">
+              {/* Image centrée dans l'espace vide */}
+              <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-10">
                 <img 
                   src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                   alt="Foot with pain indicators"
@@ -23,12 +23,8 @@ const MissionSection = () => {
                 />
               </div>
               
-              {/* Carte avec encoche en haut à gauche */}
-              <div className="bg-primary rounded-3xl text-left p-8 pt-16 h-64 flex flex-col justify-center relative"
-                   style={{
-                     clipPath: 'polygon(0% 0%, 15% 0%, 25% 15%, 100% 15%, 100% 100%, 0% 100%)'
-                   }}>
-                
+              {/* Carte rectangulaire */}
+              <div className="bg-primary rounded-3xl text-center p-8 pt-24 h-64 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-accent mb-4">
                   Prevent the risk of<br />
                   injuries and pain
@@ -43,8 +39,8 @@ const MissionSection = () => {
 
             {/* Card 2 */}
             <div className="relative">
-              {/* Image positionnée dans l'encoche */}
-              <div className="absolute -top-6 left-12 z-10">
+              {/* Image centrée dans l'espace vide */}
+              <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-10">
                 <img 
                   src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png"
                   alt="Hand with touch indicators"
@@ -52,12 +48,8 @@ const MissionSection = () => {
                 />
               </div>
               
-              {/* Carte avec encoche en haut à gauche */}
-              <div className="bg-primary rounded-3xl text-left p-8 pt-16 h-64 flex flex-col justify-center relative"
-                   style={{
-                     clipPath: 'polygon(0% 0%, 15% 0%, 25% 15%, 100% 15%, 100% 100%, 0% 100%)'
-                   }}>
-                
+              {/* Carte rectangulaire */}
+              <div className="bg-primary rounded-3xl text-center p-8 pt-24 h-64 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-accent mb-4">
                   Restore sensations
                 </h3>
@@ -71,8 +63,8 @@ const MissionSection = () => {
 
             {/* Card 3 */}
             <div className="relative">
-              {/* Image positionnée dans l'encoche */}
-              <div className="absolute -top-6 right-12 z-10">
+              {/* Image centrée dans l'espace vide */}
+              <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-10">
                 <img 
                   src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png"
                   alt="Person falling illustration"
@@ -80,12 +72,8 @@ const MissionSection = () => {
                 />
               </div>
               
-              {/* Carte avec encoche en haut à droite */}
-              <div className="bg-primary rounded-3xl text-left p-8 pt-16 h-64 flex flex-col justify-center relative"
-                   style={{
-                     clipPath: 'polygon(0% 15%, 75% 15%, 85% 0%, 100% 0%, 100% 100%, 0% 100%)'
-                   }}>
-                
+              {/* Carte rectangulaire */}
+              <div className="bg-primary rounded-3xl text-center p-8 pt-24 h-64 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-accent mb-4">
                   Regain balance
                 </h3>
