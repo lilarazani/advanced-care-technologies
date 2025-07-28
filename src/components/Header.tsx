@@ -9,12 +9,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/1f8d8b24-0152-4994-8d53-75892de86e16.png" 
+              src="/lovable-uploads/86495833-4816-48c6-b3d8-42dcdb33325b.png" 
               alt="Advanced Care Technologies"
               className="h-12 w-auto"
-              style={{ 
-                mixBlendMode: 'screen'
-              }}
             />
           </div>
 
