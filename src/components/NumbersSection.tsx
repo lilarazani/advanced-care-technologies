@@ -7,9 +7,9 @@ const NumbersSection = () => {
             In numbers
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-16">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-16">
             {/* Statistic 1 */}
-            <div className="text-center">
+            <div className="text-center flex-1">
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 10%
               </div>
@@ -24,8 +24,13 @@ const NumbersSection = () => {
               <div className="w-px h-32 bg-border"></div>
             </div>
 
+            {/* Mobile separator */}
+            <div className="md:hidden flex justify-center">
+              <div className="h-px w-32 bg-border"></div>
+            </div>
+
             {/* Statistic 2 */}
-            <div className="text-center">
+            <div className="text-center flex-1">
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 50%
               </div>
@@ -35,18 +40,18 @@ const NumbersSection = () => {
               </p>
             </div>
 
+            {/* Separator */}
+            <div className="hidden md:flex items-center justify-center">
+              <div className="w-px h-32 bg-border"></div>
+            </div>
+
             {/* Mobile separator */}
             <div className="md:hidden flex justify-center">
               <div className="h-px w-32 bg-border"></div>
             </div>
 
-            {/* Separator for desktop */}
-            <div className="hidden md:flex items-center justify-center">
-              <div className="w-px h-32 bg-border"></div>
-            </div>
-
             {/* Statistic 3 */}
-            <div className="text-center md:col-span-1">
+            <div className="text-center flex-1">
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 €15,000
               </div>
