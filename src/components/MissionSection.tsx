@@ -15,7 +15,7 @@ const MissionSection = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1 */}
             <div className="relative">
-              <div className="bg-brand-purple rounded-3xl p-8 pt-16 text-left h-80">
+              <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
                 {/* Icon */}
                 <div className="absolute -top-8 left-8">
                   <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
@@ -37,7 +37,7 @@ const MissionSection = () => {
 
             {/* Card 2 */}
             <div className="relative">
-              <div className="bg-brand-purple rounded-3xl p-8 pt-16 text-left h-80">
+              <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
                 {/* Icon */}
                 <div className="absolute -top-8 left-8">
                   <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
@@ -45,11 +45,11 @@ const MissionSection = () => {
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-accent mb-4">
+                <h3 className="text-3xl font-bold text-accent mb-4 text-center">
                   Restore sensations
                 </h3>
                 
-                <p className="text-brand-purple-foreground text-lg">
+                <p className="text-brand-purple-foreground text-lg text-center">
                   Prevent the 50% of patients<br />
                   that rejects protheses
                 </p>
@@ -58,7 +58,7 @@ const MissionSection = () => {
 
             {/* Card 3 */}
             <div className="relative">
-              <div className="bg-brand-purple rounded-3xl p-8 pt-16 text-left h-80">
+              <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
                 {/* Icon */}
                 <div className="absolute -top-8 left-8">
                   <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
@@ -66,11 +66,11 @@ const MissionSection = () => {
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-accent mb-4">
+                <h3 className="text-3xl font-bold text-accent mb-4 text-center">
                   Regain balance
                 </h3>
                 
-                <p className="text-brand-purple-foreground text-lg">
+                <p className="text-brand-purple-foreground text-lg text-center">
                   23% to 40% increase in the<br />
                   risk of falling among<br />
                   diabetic patients
