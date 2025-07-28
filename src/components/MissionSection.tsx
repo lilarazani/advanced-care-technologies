@@ -19,7 +19,7 @@ const MissionSection = () => {
               <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
                 <div className="w-32 h-32 bg-background rounded-full flex items-center justify-center">
                   <img 
-                    src="/lovable-uploads/312ce483-5bd0-4386-bba0-b0adf18c5444.png"
+                    src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                     alt="Foot with pain indicators"
                     className="w-28 h-28 object-contain"
                   />
