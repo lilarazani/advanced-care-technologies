@@ -2,7 +2,7 @@ import prostheticArm from "@/assets/prosthetic-arm.jpg";
 
 const SolutionSection = () => {
   return (
-    <section id="solution" className="py-20 bg-background">
+    <section id="solution" className="py-20" style={{ backgroundColor: '#fff9f3' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-8">

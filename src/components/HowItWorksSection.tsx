@@ -2,7 +2,7 @@ import hapticGlove from "@/assets/haptic-glove.jpg";
 
 const HowItWorksSection = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20" style={{ backgroundColor: '#fff9f3' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-16">
