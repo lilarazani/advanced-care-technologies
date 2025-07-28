@@ -23,7 +23,7 @@ const MissionSection = () => {
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-accent mb-4">
+                <h3 className="text-2xl font-bold text-accent mb-4 text-center">
                   Prevent the risk of<br />
                   injuries and pain
                 </h3>
