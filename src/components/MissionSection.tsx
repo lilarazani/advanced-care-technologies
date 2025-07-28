@@ -28,7 +28,7 @@ const MissionSection = () => {
                   injuries and pain
                 </h3>
                 
-                <p className="text-brand-purple-foreground text-lg">
+                <p className="text-brand-purple-foreground text-lg text-center">
                   Avoid amputation up to<br />
                   80% on diabetic foot
                 </p>
