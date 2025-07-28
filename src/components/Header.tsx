@@ -12,6 +12,9 @@ const Header = () => {
               src="/lovable-uploads/1f8d8b24-0152-4994-8d53-75892de86e16.png" 
               alt="Advanced Care Technologies"
               className="h-12 w-auto"
+              style={{ 
+                mixBlendMode: 'screen'
+              }}
             />
           </div>
 
