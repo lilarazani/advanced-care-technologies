@@ -16,8 +16,8 @@ const MissionSection = () => {
             {/* Card 1 */}
             <div className="relative">
               <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center relative">
-                {/* Image centrée avec fond oval */}
-                <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
+                {/* Image centrée avec fond oval chevauchant */}
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
                   <div className="w-24 h-16 bg-secondary/80 rounded-full flex items-center justify-center">
                     <img 
                       src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
