@@ -23,6 +23,10 @@ const MissionSection = () => {
                       src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                       alt="Foot with pain indicators"
                       className="w-32 h-20 object-contain"
+                      style={{ 
+                        filter: 'contrast(1.2) brightness(1.1)',
+                        mixBlendMode: 'darken'
+                      }}
                     />
                   </div>
                 </div>
