@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-hands.jpg";
+const heroImage = "/lovable-uploads/93910807-de01-47c7-a89b-ccec13fa90db.png";
 
 const HeroSection = () => {
   return (
