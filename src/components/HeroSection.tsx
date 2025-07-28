@@ -10,7 +10,6 @@ const HeroSection = () => {
           backgroundImage: `url(${heroImage})`,
         }}
       >
-        <div className="absolute inset-0 bg-background/60"></div>
       </div>
 
       {/* Content */}
