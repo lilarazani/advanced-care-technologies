@@ -11,7 +11,8 @@ const Header = () => {
             <img 
               src="/lovable-uploads/278cbecf-6c07-428b-a940-7b9461ad811b.png" 
               alt="Advanced Care Technologies"
-              className="h-12 w-auto bg-transparent"
+              className="h-12 w-auto"
+              style={{ backgroundColor: 'transparent' }}
             />
           </div>
 
