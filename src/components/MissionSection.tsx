@@ -15,8 +15,8 @@ const MissionSection = () => {
             {/* Card 1 */}
             <div className="relative">
               {/* Image centrée dans l'espace vide avec bulle */}
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-32 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
+              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
+                <div className="w-40 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
                   <img 
                     src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                     alt="Foot with pain indicators"
@@ -42,8 +42,8 @@ const MissionSection = () => {
             {/* Card 2 */}
             <div className="relative">
               {/* Image centrée dans l'espace vide avec bulle */}
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-32 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
+              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
+                <div className="w-40 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
                   <img 
                     src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png"
                     alt="Hand with touch indicators"
@@ -68,8 +68,8 @@ const MissionSection = () => {
             {/* Card 3 */}
             <div className="relative">
               {/* Image centrée dans l'espace vide avec bulle */}
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-32 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
+              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
+                <div className="w-40 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
                   <img 
                     src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png"
                     alt="Person falling illustration"
