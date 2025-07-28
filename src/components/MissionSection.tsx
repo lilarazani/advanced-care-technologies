@@ -17,9 +17,13 @@ const MissionSection = () => {
             <div className="relative">
               <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
                 {/* Icon */}
-                <div className="absolute -top-8 left-8">
-                  <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
-                    <span className="text-2xl">🖐️</span>
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
+                  <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center">
+                    <img 
+                      src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
+                      alt="Foot with pain indicators"
+                      className="w-12 h-12 object-contain"
+                    />
                   </div>
                 </div>
                 
@@ -39,9 +43,13 @@ const MissionSection = () => {
             <div className="relative">
               <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
                 {/* Icon */}
-                <div className="absolute -top-8 left-8">
-                  <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
-                    <span className="text-2xl">✨</span>
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
+                  <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center">
+                    <img 
+                      src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png"
+                      alt="Hand with touch indicators"
+                      className="w-12 h-12 object-contain"
+                    />
                   </div>
                 </div>
                 
@@ -60,9 +68,13 @@ const MissionSection = () => {
             <div className="relative">
               <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
                 {/* Icon */}
-                <div className="absolute -top-8 left-8">
-                  <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center">
-                    <span className="text-2xl">🏃</span>
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
+                  <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center">
+                    <img 
+                      src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png"
+                      alt="Person falling illustration"
+                      className="w-12 h-12 object-contain"
+                    />
                   </div>
                 </div>
                 
