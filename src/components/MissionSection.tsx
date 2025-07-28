@@ -16,11 +16,11 @@ const MissionSection = () => {
             <div className="relative">
               {/* Image centrée dans l'espace vide avec bulle */}
               <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-20 h-20 bg-background rounded-full flex items-center justify-center shadow-lg">
+                <div className="w-20 h-20 rounded-full flex items-center justify-center shadow-lg">
                   <img 
                     src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                     alt="Foot with pain indicators"
-                    className="w-12 h-12 object-contain"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
               </div>
@@ -43,11 +43,11 @@ const MissionSection = () => {
             <div className="relative">
               {/* Image centrée dans l'espace vide avec bulle */}
               <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-20 h-20 bg-background rounded-full flex items-center justify-center shadow-lg">
+                <div className="w-20 h-20 rounded-full flex items-center justify-center shadow-lg">
                   <img 
                     src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png"
                     alt="Hand with touch indicators"
-                    className="w-12 h-12 object-contain"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
               </div>
@@ -69,11 +69,11 @@ const MissionSection = () => {
             <div className="relative">
               {/* Image centrée dans l'espace vide avec bulle */}
               <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-20 h-20 bg-background rounded-full flex items-center justify-center shadow-lg">
+                <div className="w-20 h-20 rounded-full flex items-center justify-center shadow-lg">
                   <img 
                     src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png"
                     alt="Person falling illustration"
-                    className="w-12 h-12 object-contain"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
               </div>
