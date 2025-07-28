@@ -7,14 +7,12 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-sm">A</span>
-            </div>
-            <div>
-              <div className="text-primary font-bold text-lg">Advanced care</div>
-              <div className="text-primary font-normal text-sm -mt-1">TECHNOLOGIES</div>
-            </div>
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/278cbecf-6c07-428b-a940-7b9461ad811b.png" 
+              alt="Advanced Care Technologies"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Navigation */}
@@ -33,7 +31,9 @@ const Header = () => {
           {/* Right side - Language and Contact */}
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-primary">
-              <Linkedin className="w-5 h-5" />
+              <a href="https://www.linkedin.com/company/digi-skin/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-5 h-5 hover:text-accent transition-colors cursor-pointer" />
+              </a>
               <span className="hidden sm:inline">En</span>
               <span className="hidden sm:inline text-muted-foreground">|</span>
               <span className="hidden sm:inline">Fr</span>
