@@ -14,29 +14,27 @@ const MissionSection = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Card 1 */}
             <div className="relative">
-              {/* Image positionnée dans la découpe */}
-              <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-32 h-32 bg-background rounded-full flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
-                    alt="Foot with pain indicators"
-                    className="w-28 h-28 object-contain"
-                  />
-                </div>
+              {/* Image positionnée dans l'encoche */}
+              <div className="absolute -top-6 left-12 z-10">
+                <img 
+                  src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
+                  alt="Foot with pain indicators"
+                  className="w-16 h-16 object-contain"
+                />
               </div>
               
-              {/* Carte avec découpe en haut */}
-              <div className="bg-brand-purple rounded-3xl text-center h-72 flex flex-col justify-center pt-16 px-6 relative"
+              {/* Carte avec encoche en haut à gauche */}
+              <div className="bg-primary rounded-3xl text-left p-8 pt-16 h-64 flex flex-col justify-center relative"
                    style={{
-                     clipPath: 'polygon(0% 15%, 35% 15%, 50% 0%, 65% 15%, 100% 15%, 100% 100%, 0% 100%)'
+                     clipPath: 'polygon(0% 0%, 15% 0%, 25% 15%, 100% 15%, 100% 100%, 0% 100%)'
                    }}>
                 
-                <h3 className="text-3xl font-bold text-accent mb-4 text-center">
+                <h3 className="text-2xl font-bold text-accent mb-4">
                   Prevent the risk of<br />
                   injuries and pain
                 </h3>
                 
-                <p className="text-brand-purple-foreground text-lg text-center">
+                <p className="text-primary-foreground text-base">
                   Avoid amputation up to<br />
                   80% on diabetic foot
                 </p>
@@ -45,27 +43,26 @@ const MissionSection = () => {
 
             {/* Card 2 */}
             <div className="relative">
-              <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
-                {/* Icon */}
-                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
-                  <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center">
-                    <img 
-                      src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png"
-                      alt="Hand with touch indicators"
-                      className="w-16 h-16 object-contain"
-                      style={{ 
-                        mixBlendMode: 'multiply',
-                        filter: 'brightness(1.2)'
-                      }}
-                    />
-                  </div>
-                </div>
+              {/* Image positionnée dans l'encoche */}
+              <div className="absolute -top-6 left-12 z-10">
+                <img 
+                  src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png"
+                  alt="Hand with touch indicators"
+                  className="w-16 h-16 object-contain"
+                />
+              </div>
+              
+              {/* Carte avec encoche en haut à gauche */}
+              <div className="bg-primary rounded-3xl text-left p-8 pt-16 h-64 flex flex-col justify-center relative"
+                   style={{
+                     clipPath: 'polygon(0% 0%, 15% 0%, 25% 15%, 100% 15%, 100% 100%, 0% 100%)'
+                   }}>
                 
-                <h3 className="text-3xl font-bold text-accent mb-4 text-center">
+                <h3 className="text-2xl font-bold text-accent mb-4">
                   Restore sensations
                 </h3>
                 
-                <p className="text-brand-purple-foreground text-lg text-center">
+                <p className="text-primary-foreground text-base">
                   Prevent the 50% of patients<br />
                   that rejects protheses
                 </p>
@@ -74,27 +71,26 @@ const MissionSection = () => {
 
             {/* Card 3 */}
             <div className="relative">
-              <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center">
-                {/* Icon */}
-                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
-                  <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center">
-                    <img 
-                      src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png"
-                      alt="Person falling illustration"
-                      className="w-16 h-16 object-contain"
-                      style={{ 
-                        mixBlendMode: 'multiply',
-                        filter: 'brightness(1.2)'
-                      }}
-                    />
-                  </div>
-                </div>
+              {/* Image positionnée dans l'encoche */}
+              <div className="absolute -top-6 right-12 z-10">
+                <img 
+                  src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png"
+                  alt="Person falling illustration"
+                  className="w-16 h-16 object-contain"
+                />
+              </div>
+              
+              {/* Carte avec encoche en haut à droite */}
+              <div className="bg-primary rounded-3xl text-left p-8 pt-16 h-64 flex flex-col justify-center relative"
+                   style={{
+                     clipPath: 'polygon(0% 15%, 75% 15%, 85% 0%, 100% 0%, 100% 100%, 0% 100%)'
+                   }}>
                 
-                <h3 className="text-3xl font-bold text-accent mb-4 text-center">
+                <h3 className="text-2xl font-bold text-accent mb-4">
                   Regain balance
                 </h3>
                 
-                <p className="text-brand-purple-foreground text-lg text-center">
+                <p className="text-primary-foreground text-base">
                   23% to 40% increase in the<br />
                   risk of falling among<br />
                   diabetic patients
