@@ -4,7 +4,7 @@ const MissionSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl lg:text-6xl font-bold text-primary mb-8">
-            our mission is to facilitate patients' daily lives and autonomy
+            Our mission is to facilitate patients' daily lives and autonomy
           </h2>
           
           <p className="text-xl text-primary/70 mb-16">
