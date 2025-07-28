@@ -9,7 +9,7 @@ const SolutionSection = () => {
             Our solution
           </h2>
           
-          <p className="text-xl text-accent text-center mb-16">
+          <p className="text-2xl text-accent text-center mb-16">
             A disruptive innovation : an IoT device monitored by a software powered by AI
           </p>
 
