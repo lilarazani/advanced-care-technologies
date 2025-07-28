@@ -18,7 +18,7 @@ const MissionSection = () => {
               <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center relative">
                 {/* Image centrée avec fond oval chevauchant */}
                 <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
-                  <div className="w-48 h-32 bg-brand-purple rounded-full flex items-center justify-center">
+                  <div className="w-48 h-32 bg-background rounded-full flex items-center justify-center">
                     <img 
                       src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                       alt="Foot with pain indicators"
