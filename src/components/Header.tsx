@@ -9,14 +9,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/278cbecf-6c07-428b-a940-7b9461ad811b.png" 
+              src="/lovable-uploads/1f8d8b24-0152-4994-8d53-75892de86e16.png" 
               alt="Advanced Care Technologies"
               className="h-12 w-auto"
-              style={{ 
-                backgroundColor: 'transparent',
-                mixBlendMode: 'multiply',
-                filter: 'brightness(1.2)'
-              }}
             />
           </div>
 
