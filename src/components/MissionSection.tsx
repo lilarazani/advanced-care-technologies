@@ -17,12 +17,12 @@ const MissionSection = () => {
             <div className="relative">
               <div className="bg-brand-purple rounded-3xl p-6 pt-14 text-center h-72 flex flex-col justify-center relative">
                 {/* Image centrée avec fond oval chevauchant */}
-                <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
-                  <div className="w-40 h-24 bg-secondary rounded-full flex items-center justify-center">
+                <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
+                  <div className="w-48 h-32 bg-brand-purple rounded-full flex items-center justify-center">
                     <img 
                       src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png"
                       alt="Foot with pain indicators"
-                      className="w-32 h-20 object-contain"
+                      className="w-40 h-28 object-contain"
                       style={{ 
                         filter: 'contrast(1.2) brightness(1.1)',
                         mixBlendMode: 'darken'
