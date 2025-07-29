@@ -13,21 +13,22 @@ const SolutionSection = () => {
             A disruptive innovation : an IoT device monitored by a software powered by AI
           </p>
 
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            {/* Left content */}
-            <div className="lg:w-1/2 text-center lg:text-left">
-              {/* Digi'Skin Logo */}
-              <div className="flex items-center justify-center lg:justify-start mb-8">
-                
-              </div>
-            </div>
+          {/* Digi'Skin Logo */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/lovable-uploads/5f8b3639-372c-4e2a-8843-49b3da871352.png" 
+              alt="Digi'Skin Logo" 
+              className="h-24 lg:h-32"
+            />
+          </div>
 
-            {/* Right image */}
-            <div className="lg:w-1/2">
-              <div className="relative">
-                
-              </div>
-            </div>
+          {/* Prosthetic Hand Image */}
+          <div className="flex justify-center">
+            <img 
+              src="/lovable-uploads/dd00f25f-3c3b-4cfa-8f8a-25b78c9c5772.png" 
+              alt="Prosthetic Hand with Haptic Technology" 
+              className="max-w-md lg:max-w-lg w-full h-auto"
+            />
           </div>
         </div>
       </div>
