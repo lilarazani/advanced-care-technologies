@@ -17,7 +17,7 @@ const MissionSection = () => {
             <div className="relative">
               {/* Carte rectangulaire */}
               <div className="bg-primary rounded-3xl text-center p-8 flex flex-col items-center justify-center min-h-[280px]">
-                <img src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png" alt="Hand with touch indicators" className="w-20 h-20 object-contain mb-6" />
+                <img src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png" alt="Hand with touch indicators" className="w-20 h-20 object-contain mb-6 border-2 border-white rounded-lg p-2" />
                 <h3 className="text-2xl font-bold text-accent">
                   Restore sensations
                 </h3>
@@ -28,7 +28,7 @@ const MissionSection = () => {
             <div className="relative">
               {/* Carte rectangulaire */}
               <div className="bg-primary rounded-3xl text-center p-8 flex flex-col items-center justify-center min-h-[280px]">
-                <img src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png" alt="Person falling illustration" className="w-20 h-20 object-contain mb-6" />
+                <img src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png" alt="Person falling illustration" className="w-20 h-20 object-contain mb-6 border-2 border-white rounded-lg p-2" />
                 <h3 className="text-2xl font-bold text-accent">
                   Regain balance
                 </h3>
@@ -39,7 +39,7 @@ const MissionSection = () => {
             <div className="relative">
               {/* Carte rectangulaire */}
               <div className="bg-primary rounded-3xl text-center p-8 flex flex-col items-center justify-center min-h-[280px]">
-                <img src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png" alt="Foot with pain indicators" className="w-20 h-20 object-contain mb-6" />
+                <img src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png" alt="Foot with pain indicators" className="w-20 h-20 object-contain mb-6 border-2 border-white rounded-lg p-2" />
                 <h3 className="text-2xl font-bold text-accent">
                   Prevent the risk of<br />
                   injuries and pain
