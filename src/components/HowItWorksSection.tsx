@@ -18,7 +18,7 @@ const HowItWorksSection = () => {
                   <img 
                     src="/lovable-uploads/28534c51-e0a3-4c2f-a872-ef98326443f4.png" 
                     alt="Sensor technology icon" 
-                    className="w-16 h-16 object-contain"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
                 <div>
@@ -35,7 +35,7 @@ const HowItWorksSection = () => {
                   <img 
                     src="/lovable-uploads/c09d82d9-f58e-4f56-b022-99150078a50a.png" 
                     alt="Software technology icon" 
-                    className="w-16 h-16 object-contain"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
                 <div>
@@ -52,7 +52,7 @@ const HowItWorksSection = () => {
                   <img 
                     src="/lovable-uploads/4b94403d-2e8b-4fc9-9db3-7ee3c3ddd54c.png" 
                     alt="Stimulation bracelet icon" 
-                    className="w-16 h-16 object-contain"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
                 <div>
