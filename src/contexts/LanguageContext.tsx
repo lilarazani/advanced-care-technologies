@@ -47,9 +47,9 @@ const translations = {
     
     // How It Works Section
     'how.title': 'How it works',
-    'how.feature1': 'Embedded force sensors within gloves of silicone, collecting touch informations',
-    'how.feature2': "Software adjusting the haptic feedback signals in real-time based on the context of use or the user's sensory profile",
-    'how.feature3': 'A stimulation arm band attached to the arm and featuring haptic stimulation devices',
+    'how.feature1': 'Embedded <strong>force sensors</strong> within <strong>gloves of silicone</strong>, collecting touch informations',
+    'how.feature2': "Software adjusting the haptic feedback signals in <strong>real-time</strong> based on the context of use or the <strong>user's sensory profile</strong>",
+    'how.feature3': 'A stimulation <strong>arm band</strong> attached to the arm and featuring <strong>haptic stimulation devices</strong>',
     
     // About Section
     'about.title': 'About us',
