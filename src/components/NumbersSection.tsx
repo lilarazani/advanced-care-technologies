@@ -56,8 +56,10 @@ const NumbersSection = () => {
                <div className="text-6xl lg:text-8xl font-bold text-primary mb-4 min-h-[6rem] lg:min-h-[8rem] flex items-center justify-center">
                  €15,000
                </div>
-              <p className="text-xl text-primary/70">The average cost 
-per patient</p>
+               <p className="text-xl text-primary/70">
+                 The average cost<br />
+                 per patient
+               </p>
             </div>
           </div>
         </div>
