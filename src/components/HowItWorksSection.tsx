@@ -15,9 +15,11 @@ const HowItWorksSection = () => {
               {/* Feature 1 */}
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center">
-                    <span className="text-2xl">⚡</span>
-                  </div>
+                  <img 
+                    src="/lovable-uploads/28534c51-e0a3-4c2f-a872-ef98326443f4.png" 
+                    alt="Sensor technology icon" 
+                    className="w-16 h-16"
+                  />
                 </div>
                 <div>
                   <p className="text-lg text-primary">
