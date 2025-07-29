@@ -1,10 +1,9 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-
 const heroImage = "/lovable-uploads/93910807-de01-47c7-a89b-ccec13fa90db.png";
-
 const HeroSection = () => {
-  const { t } = useLanguage();
-
+  const {
+    t
+  } = useLanguage();
   return <section id="home" className="min-h-screen relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
@@ -24,7 +23,7 @@ const HeroSection = () => {
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-primary/80">
             <p>{t('hero.description1')}</p>
             
-            <p>{t('hero.description2')}</p>
+            <p className="text-xl">{t('hero.description2')}</p>
           </div>
         </div>
       </div>
