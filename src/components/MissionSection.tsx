@@ -20,7 +20,7 @@ const MissionSection = () => {
             <img 
               src="/lovable-uploads/f3d3e482-78a4-4579-81ba-7eb027d7ad54.png" 
               alt="Mission cards overview" 
-              className="w-full h-auto mt-8"
+              className="w-full h-auto mt-20"
             />
             
             {/* Text overlay */}
