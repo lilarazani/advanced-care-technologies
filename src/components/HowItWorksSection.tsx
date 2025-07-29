@@ -55,8 +55,7 @@ const HowItWorksSection = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-lg text-primary">
-                    {t('how.feature3')}
+                  <p className="text-lg text-primary" dangerouslySetInnerHTML={{ __html: t('how.feature3').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}>
                   </p>
                 </div>
               </div>
