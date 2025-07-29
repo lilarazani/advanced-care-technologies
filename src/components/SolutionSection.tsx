@@ -27,7 +27,7 @@ const SolutionSection = () => {
             <img 
               src="/lovable-uploads/13d843d7-b713-46d6-8e55-cd85095d6073.png" 
               alt="Prosthetic Hand with Haptic Technology" 
-              className="max-w-md lg:max-w-lg w-full h-auto"
+              className="max-w-4xl w-full h-auto"
             />
           </div>
         </div>
