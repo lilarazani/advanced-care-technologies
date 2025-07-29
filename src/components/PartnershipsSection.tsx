@@ -24,29 +24,31 @@ const PartnershipsSection = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-16">
             {t('partnerships.title')}
           </h2>
-          <Carousel 
-            className="w-full max-w-4xl mx-auto"
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-          >
-            <CarouselContent className="-ml-2 md:-ml-4">
-              {partnerLogos.map((logo, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/3 lg:basis-1/4">
-                  <div className="p-4">
-                    <img 
-                      src={logo.src} 
-                      alt={logo.alt}
-                      className="w-full h-24 object-contain mx-auto"
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="left-0" />
-            <CarouselNext className="right-0" />
-          </Carousel>
+          <div className="relative">
+            <Carousel 
+              className="w-full max-w-4xl mx-auto"
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+            >
+              <CarouselContent className="-ml-2 md:-ml-4">
+                {partnerLogos.map((logo, index) => (
+                  <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/3 lg:basis-1/4">
+                    <div className="p-4">
+                      <img 
+                        src={logo.src} 
+                        alt={logo.alt}
+                        className="w-full h-24 object-contain mx-auto"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="-left-8 md:-left-12" />
+              <CarouselNext className="-right-8 md:-right-12" />
+            </Carousel>
+          </div>
         </div>
       </div>
     </section>
