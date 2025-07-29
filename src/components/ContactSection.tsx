@@ -13,7 +13,7 @@ const ContactSection = () => {
           </h2>
           
           <p className="text-xl text-primary/70 mb-8">
-            To learn more about our solution or find out about opportunities at Peekcell, please contact us at:
+            To learn more about our solution or find out about opportunities at Advanced Care Technologies, please contact us at:
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
