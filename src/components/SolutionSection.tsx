@@ -1,16 +1,20 @@
 import prostheticArm from "@/assets/prosthetic-arm.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const SolutionSection = () => {
+  const { t } = useLanguage();
+
   return <section id="solution" className="py-20" style={{
     backgroundColor: '#fff9f3'
   }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-4">
-            Our solution
+            {t('solution.title')}
           </h2>
           
           <p className="text-2xl text-accent text-center mb-8">
-            A disruptive innovation : an IoT device monitored by a software powered by AI
+            {t('solution.subtitle')}
           </p>
 
           {/* Digi'Skin Logo */}

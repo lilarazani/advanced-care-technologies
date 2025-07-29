@@ -1,12 +1,15 @@
 import hapticGlove from "@/assets/haptic-glove.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const HowItWorksSection = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="py-20" style={{ backgroundColor: '#fff9f3' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-16">
-            How it works
+            {t('how.title')}
           </h2>
 
           <div className="flex flex-col lg:flex-row gap-16 items-center">
@@ -23,8 +26,7 @@ const HowItWorksSection = () => {
                 </div>
                 <div>
                   <p className="text-lg text-primary">
-                    Embedded force sensors within gloves of silicone, collecting 
-                    pressure informations
+                    {t('how.feature1')}
                   </p>
                 </div>
               </div>
@@ -40,8 +42,7 @@ const HowItWorksSection = () => {
                 </div>
                 <div>
                   <p className="text-lg text-primary">
-                    Softpower adjusting the haptic feedback signals in real-time 
-                    based on the context of use or the user's sensory profile
+                    {t('how.feature2')}
                   </p>
                 </div>
               </div>
@@ -57,8 +58,7 @@ const HowItWorksSection = () => {
                 </div>
                 <div>
                   <p className="text-lg text-primary">
-                    A stimulation bracelet attached to the arm and featuring 
-                    haptic stimulation devices
+                    {t('how.feature3')}
                   </p>
                 </div>
               </div>

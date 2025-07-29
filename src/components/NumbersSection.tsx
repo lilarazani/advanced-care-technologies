@@ -1,11 +1,15 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const NumbersSection = () => {
+  const { t } = useLanguage();
+
   return <section className="py-20" style={{
     backgroundColor: '#fff9f3'
   }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-20">
-            In numbers
+            {t('numbers.title')}
           </h2>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-16">
@@ -15,8 +19,8 @@ const NumbersSection = () => {
                 10%
               </div>
               <p className="text-xl text-primary/70">
-                of global population have<br />
-                sensory loss
+                {t('numbers.stat1')}<br />
+                {t('numbers.stat1.line2')}
               </p>
             </div>
 
@@ -36,8 +40,8 @@ const NumbersSection = () => {
                 50%
               </div>
               <p className="text-xl text-primary/70">
-                of cases associated with<br />
-                chronic pain
+                {t('numbers.stat2')}<br />
+                {t('numbers.stat2.line2')}
               </p>
             </div>
 
@@ -57,8 +61,8 @@ const NumbersSection = () => {
                  €15,000
                </div>
                <p className="text-xl text-primary/70">
-                 The average cost<br />
-                 per patient
+                 {t('numbers.stat3')}<br />
+                 {t('numbers.stat3.line2')}
                </p>
             </div>
           </div>

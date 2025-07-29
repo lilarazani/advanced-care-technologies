@@ -1,10 +1,14 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const PartnershipsSection = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="py-20" style={{ backgroundColor: '#fff9f3' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-16">
-            Partnerships & Collaborations
+            {t('partnerships.title')}
           </h2>
           <img 
             src="/lovable-uploads/ad927e2f-02b7-4e90-94ac-1d545a49af3c.png" 

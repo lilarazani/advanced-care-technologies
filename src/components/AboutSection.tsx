@@ -1,4 +1,8 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const AboutSection = () => {
+  const { t } = useLanguage();
+
   const teamMembers = [{
     name: "Gabriel ELEUTERIO",
     role: "CEO & cofounder",
@@ -15,13 +19,14 @@ const AboutSection = () => {
     title: "Orthopedic Surgeon & cofounder",
     qualifications: ["Orthopedic Surgeon", "Member of the French Society of Orthopaedic and Traumatological Surgery (SOFCOT)", "Associate member of the French Society of Hand Surgery (SFCM)"]
   }];
+
   return <section id="about" className="py-20" style={{
     backgroundColor: '#fff9f3'
   }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-16">
-            About us
+            {t('about.title')}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-12">
