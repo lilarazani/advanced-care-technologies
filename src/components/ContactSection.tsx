@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
   const { t } = useLanguage();
@@ -11,9 +12,13 @@ const ContactSection = () => {
             Be a part of our vision
           </h2>
           
-          <p className="text-xl text-primary/70">
+          <p className="text-xl text-primary/70 mb-8">
             To learn more about our solution or find out about opportunities at Peekcell, please contact us at:
           </p>
+          
+          <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+            gabriel.eleuterio@digiskin-act.fr manon.frajman@hotmail.fr
+          </Button>
         </div>
       </div>
     </section>
