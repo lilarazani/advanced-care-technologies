@@ -29,15 +29,16 @@ const PartnershipsSection = () => {
           </h2>
           <div className="relative">
             <Carousel 
-              className="w-full max-w-4xl mx-auto"
+              className="w-full max-w-5xl mx-auto"
               opts={{
                 align: "start",
                 loop: true,
+                slidesToScroll: 1,
               }}
             >
-              <CarouselContent className="-ml-2 md:-ml-4">
+              <CarouselContent className="-ml-4">
                 {partnerLogos.map((logo, index) => (
-                  <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/3 lg:basis-1/4">
+                  <CarouselItem key={index} className="pl-4 basis-1/2 md:basis-1/3 lg:basis-1/5">
                     <div className="p-4">
                       <img 
                         src={logo.src} 
