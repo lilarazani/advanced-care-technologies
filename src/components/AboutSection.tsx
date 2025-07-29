@@ -32,9 +32,9 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-3 gap-12">
             {teamMembers.map((member, index) => {
               const imageUrls = [
-                "/lovable-uploads/116b89e6-179c-4d47-ab17-025d9033e872.png",
+                "/lovable-uploads/8222d675-2743-485f-be25-c5e53d5f3c2b.png",
                 "/lovable-uploads/20cc7460-335d-4808-89b0-3be3dcc7f99c.png", 
-                "/lovable-uploads/42d09106-1154-434d-9dbf-44ac439b2b2f.png"
+                "/lovable-uploads/a45e51eb-a77c-45e0-82ad-6219303f2e5d.png"
               ];
               
               return (
