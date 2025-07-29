@@ -1,6 +1,7 @@
 const NumbersSection = () => {
-  return (
-    <section className="py-20" style={{ backgroundColor: '#fff9f3' }}>
+  return <section className="py-20" style={{
+    backgroundColor: '#fff9f3'
+  }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-20">
@@ -55,15 +56,12 @@ const NumbersSection = () => {
                <div className="text-6xl lg:text-8xl font-bold text-primary mb-4 min-h-[6rem] lg:min-h-[8rem] flex items-center justify-center">
                  €15,000
                </div>
-              <p className="text-xl text-primary/70">
-                The average cost per patient
-              </p>
+              <p className="text-xl text-primary/70">The average cost 
+per patient</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default NumbersSection;
