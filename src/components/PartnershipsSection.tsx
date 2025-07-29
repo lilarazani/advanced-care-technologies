@@ -16,8 +16,7 @@ const PartnershipsSection = () => {
     { src: "/lovable-uploads/87b56a7a-de88-4c7d-b6bc-cf00c109e62a.png", alt: "Women in Tech France" },
     { src: "/lovable-uploads/940fd5b1-3997-4852-9616-f5efa059b1df.png", alt: "She/EOs" },
     { src: "/lovable-uploads/8e71a33d-0d4d-4b02-8fa7-97c8ee231d76.png", alt: "La Handitech" },
-    { src: "/lovable-uploads/8b2ccd30-0e49-4760-be12-a5d59383a2f4.png", alt: "Airbus Développement" },
-    { src: "/lovable-uploads/ab0c183e-48e6-43e8-8cb2-386eb8020f48.png", alt: "La Tourmaline" }
+    { src: "/lovable-uploads/8b2ccd30-0e49-4760-be12-a5d59383a2f4.png", alt: "Airbus Développement" }
   ];
 
   return (
@@ -29,28 +28,27 @@ const PartnershipsSection = () => {
           </h2>
           <div className="relative">
             <Carousel 
-              className="w-full max-w-6xl mx-auto"
+              className="w-full max-w-4xl mx-auto"
               opts={{
                 align: "start",
                 loop: true,
-                dragFree: true,
               }}
             >
-              <CarouselContent>
+              <CarouselContent className="-ml-2 md:-ml-4">
                 {partnerLogos.map((logo, index) => (
-                  <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
-                    <div className="p-6">
+                  <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/3 lg:basis-1/4">
+                    <div className="p-4">
                       <img 
                         src={logo.src} 
                         alt={logo.alt}
-                        className="w-full h-20 object-contain mx-auto"
+                        className="w-full h-24 object-contain mx-auto"
                       />
                     </div>
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="absolute -left-12 top-1/2 -translate-y-1/2" />
-              <CarouselNext className="absolute -right-12 top-1/2 -translate-y-1/2" />
+              <CarouselPrevious className="-left-8 md:-left-12" />
+              <CarouselNext className="-right-8 md:-right-12" />
             </Carousel>
           </div>
         </div>
