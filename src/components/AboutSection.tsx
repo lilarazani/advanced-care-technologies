@@ -111,15 +111,15 @@ const AboutSection = () => {
                         className="h-16 object-contain"
                       />
                       <img 
-                        src="/lovable-uploads/490f3aaf-50b1-4149-966b-adc776cadc19.png" 
-                        alt="SFCM"
+                        src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
+                        alt="SOFCOT"
                         className="h-16 object-contain"
                       />
                     </div>
                     <div className="flex justify-center items-center">
                       <img 
-                        src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
-                        alt="SOFCOT"
+                        src="/lovable-uploads/490f3aaf-50b1-4149-966b-adc776cadc19.png" 
+                        alt="SFCM"
                         className="h-16 object-contain"
                       />
                     </div>
