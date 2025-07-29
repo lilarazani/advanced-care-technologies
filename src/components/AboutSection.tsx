@@ -72,6 +72,27 @@ const AboutSection = () => {
                   </div>
                 )}
 
+                {/* School logos for Manon only */}
+                {index === 1 && (
+                  <div className="flex justify-center items-center gap-4 mb-6">
+                    <img 
+                      src="/lovable-uploads/25dd06c5-a813-4e6c-b7a1-8a9ae9d72674.png" 
+                      alt="Sup'Biotech"
+                      className="h-8 object-contain"
+                    />
+                    <img 
+                      src="/lovable-uploads/403b60f8-d22b-4b37-b8a6-4d009872ab40.png" 
+                      alt="VitaDX"
+                      className="h-8 object-contain"
+                    />
+                    <img 
+                      src="/lovable-uploads/818da153-d9b5-4f82-ac17-c36b3b3836d5.png" 
+                      alt="Company Logo"
+                      className="h-8 object-contain"
+                    />
+                  </div>
+                )}
+
                 {/* Qualifications */}
                 <ul className="text-left space-y-2 text-primary/80">
                   {member.qualifications.map((qualification, qIndex) => (
