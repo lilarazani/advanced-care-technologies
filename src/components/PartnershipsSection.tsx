@@ -29,28 +29,28 @@ const PartnershipsSection = () => {
           </h2>
           <div className="relative">
             <Carousel 
-              className="w-full max-w-5xl mx-auto"
+              className="w-full max-w-6xl mx-auto"
               opts={{
                 align: "start",
                 loop: true,
-                slidesToScroll: 1,
+                dragFree: true,
               }}
             >
-              <CarouselContent className="-ml-4">
+              <CarouselContent>
                 {partnerLogos.map((logo, index) => (
-                  <CarouselItem key={index} className="pl-4 basis-1/2 md:basis-1/3 lg:basis-1/5">
-                    <div className="p-4">
+                  <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+                    <div className="p-6">
                       <img 
                         src={logo.src} 
                         alt={logo.alt}
-                        className="w-full h-24 object-contain mx-auto"
+                        className="w-full h-20 object-contain mx-auto"
                       />
                     </div>
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
+              <CarouselPrevious className="absolute -left-12 top-1/2 -translate-y-1/2" />
+              <CarouselNext className="absolute -right-12 top-1/2 -translate-y-1/2" />
             </Carousel>
           </div>
         </div>
