@@ -48,8 +48,8 @@ const PartnershipsSection = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="-left-8 md:-left-12" />
-              <CarouselNext className="-right-8 md:-right-12" />
+              <CarouselPrevious />
+              <CarouselNext />
             </Carousel>
           </div>
         </div>
