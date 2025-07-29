@@ -14,7 +14,7 @@ const MissionSection = () => {
 
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/63a87eb2-c5b8-4abe-82c6-030e3681e9a2.png" 
+              src="/lovable-uploads/4c72dd85-717e-4b07-afc1-aad276e8565f.png" 
               alt="Mission cards overview" 
               className="max-w-full h-auto"
             />
