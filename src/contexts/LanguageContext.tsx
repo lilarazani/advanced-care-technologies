@@ -48,7 +48,7 @@ const translations = {
     // How It Works Section
     'how.title': 'How it works',
     'how.feature1': 'Embedded force sensors within gloves of silicone, collecting pressure informations',
-    'how.feature2': "Softpower adjusting the haptic feedback signals in real-time based on the context of use or the user's sensory profile",
+    'how.feature2': "Software adjusting the haptic feedback signals in real-time based on the context of use or the user's sensory profile",
     'how.feature3': 'A stimulation bracelet attached to the arm and featuring haptic stimulation devices',
     
     // About Section
