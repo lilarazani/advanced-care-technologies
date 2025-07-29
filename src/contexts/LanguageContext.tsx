@@ -30,7 +30,7 @@ const translations = {
     'mission.subtitle': 'With haptic feedback, we aim to :',
     'mission.card1': 'Restore sensations',
     'mission.card2': 'Regain balance',
-    'mission.card3': 'Prevent the risk of pain and injuries',
+    'mission.card3': 'Prevent the risk of pain\nand injuries',
     
     // Solution Section
     'solution.title': 'Our solution',
@@ -76,7 +76,7 @@ const translations = {
     'mission.subtitle': 'Avec le retour haptique, nous visons à :',
     'mission.card1': 'Restaurer les sensations',
     'mission.card2': 'Retrouver l\'équilibre',
-    'mission.card3': 'Prévenir les risques de douleur et de blessures',
+    'mission.card3': 'Prévenir les risques de douleur\net de blessures',
     
     // Solution Section
     'solution.title': 'Notre solution',
