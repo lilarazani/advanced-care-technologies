@@ -12,7 +12,7 @@ const AboutSection = () => {
   }, {
     name: "Edward De Keating - Hart",
     role: "CMO & cofounder",
-    title: "CMO & cofounder",
+    title: "Orthopedic Surgeon & cofounder",
     qualifications: ["Orthopedic Surgeon", "Member of the French Society of Orthopaedic and Traumatological Surgery (SOFCOT)", "Associate member of the French Society of Hand Surgery (SFCM)"]
   }];
   return <section id="about" className="py-20" style={{
