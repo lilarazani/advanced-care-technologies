@@ -14,7 +14,9 @@ const PartnershipsSection = () => {
     { src: "/lovable-uploads/ed495636-ff52-4ab6-a829-d6bb7370c1b1.png", alt: "BPI France" },
     { src: "/lovable-uploads/327de599-acb2-49fd-a13e-ad8e668a654d.png", alt: "La French Tech Paris-Saclay" },
     { src: "/lovable-uploads/87b56a7a-de88-4c7d-b6bc-cf00c109e62a.png", alt: "Women in Tech France" },
-    { src: "/lovable-uploads/940fd5b1-3997-4852-9616-f5efa059b1df.png", alt: "She/EOs" }
+    { src: "/lovable-uploads/940fd5b1-3997-4852-9616-f5efa059b1df.png", alt: "She/EOs" },
+    { src: "/lovable-uploads/8e71a33d-0d4d-4b02-8fa7-97c8ee231d76.png", alt: "La Handitech" },
+    { src: "/lovable-uploads/8b2ccd30-0e49-4760-be12-a5d59383a2f4.png", alt: "Airbus Développement" }
   ];
 
   return (
