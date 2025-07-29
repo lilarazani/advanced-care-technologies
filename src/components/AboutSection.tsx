@@ -25,11 +25,23 @@ const AboutSection = () => {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-12">
-            {teamMembers.map((member, index) => <div key={index} className="text-center">
-                {/* Profile Image Placeholder */}
-                <div className="w-48 h-48 mx-auto mb-6 bg-muted rounded-full flex items-center justify-center border-4 border-primary">
-                  <span className="text-6xl text-primary">{member.name.charAt(0)}</span>
-                </div>
+            {teamMembers.map((member, index) => {
+              const imageUrls = [
+                "/lovable-uploads/116b89e6-179c-4d47-ab17-025d9033e872.png",
+                "/lovable-uploads/20cc7460-335d-4808-89b0-3be3dcc7f99c.png", 
+                "/lovable-uploads/42d09106-1154-434d-9dbf-44ac439b2b2f.png"
+              ];
+              
+              return (
+                <div key={index} className="text-center">
+                  {/* Profile Image */}
+                  <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary">
+                    <img 
+                      src={imageUrls[index]} 
+                      alt={`Photo de ${member.name}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
 
                 {/* Name and Role */}
                 <h3 className="text-2xl font-bold text-primary mb-2">
@@ -41,12 +53,16 @@ const AboutSection = () => {
 
                 {/* Qualifications */}
                 <ul className="text-left space-y-2 text-primary/80">
-                  {member.qualifications.map((qualification, qIndex) => <li key={qIndex} className="flex items-start">
+                  {member.qualifications.map((qualification, qIndex) => (
+                    <li key={qIndex} className="flex items-start">
                       <span className="text-accent mr-2 flex-shrink-0">•</span>
-                      
-                    </li>)}
+                      {qualification}
+                    </li>
+                  ))}
                 </ul>
-              </div>)}
+              </div>
+              );
+            })}
           </div>
         </div>
       </div>
