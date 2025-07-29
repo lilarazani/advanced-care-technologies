@@ -20,13 +20,34 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-primary hover:text-accent transition-colors font-medium">
+            <a 
+              href="#home" 
+              className="text-primary hover:text-accent transition-colors font-medium cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               {t('nav.home')}
             </a>
-            <a href="#solution" className="text-primary hover:text-accent transition-colors font-medium">
+            <a 
+              href="#solution" 
+              className="text-primary hover:text-accent transition-colors font-medium cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('solution')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               {t('nav.solution')}
             </a>
-            <a href="#about" className="text-primary hover:text-accent transition-colors font-medium">
+            <a 
+              href="#about" 
+              className="text-primary hover:text-accent transition-colors font-medium cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               {t('nav.about')}
             </a>
           </nav>
