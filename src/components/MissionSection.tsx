@@ -24,7 +24,7 @@ const MissionSection = () => {
             />
             
             {/* Text overlay */}
-            <div className="absolute inset-0 flex items-end justify-center pb-6 -mt-16">
+            <div className="absolute inset-0 flex items-end justify-center pb-6 -mt-32">
               <div className="grid grid-cols-3 gap-16 w-full max-w-6xl px-8">
                 <div className="text-center -ml-8 -mt-2">
                   <p className="text-2xl font-bold" style={{ color: '#f4a756' }}>
