@@ -68,7 +68,7 @@ const HowItWorksSection = () => {
             <div className="lg:w-1/2">
               <div className="relative">
                 <img 
-                  src={hapticGlove} 
+                  src="/lovable-uploads/60009006-ed47-4032-af51-9dde975c325d.png" 
                   alt="Haptic glove with sensors"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
