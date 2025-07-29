@@ -63,19 +63,19 @@ const AboutSection = () => {
                       <img 
                         src="/lovable-uploads/11e3444b-0edf-4fd8-b464-ed1e609af5c0.png" 
                         alt="Sup'Biotech"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                       <img 
                         src="/lovable-uploads/285f121f-bdd7-40dd-8c9e-1b0bbfa1d2eb.png" 
                         alt="ESME"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                     </div>
                     <div className="flex justify-center items-center">
                       <img 
                         src="/lovable-uploads/f696c7dc-ada6-456d-92b4-d8f79896251d.png" 
                         alt="I-Stem"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                     </div>
                   </div>
@@ -88,19 +88,19 @@ const AboutSection = () => {
                       <img 
                         src="/lovable-uploads/25dd06c5-a813-4e6c-b7a1-8a9ae9d72674.png" 
                         alt="Sup'Biotech"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                       <img 
                         src="/lovable-uploads/403b60f8-d22b-4b37-b8a6-4d009872ab40.png" 
                         alt="VitaDX"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                     </div>
                     <div className="flex justify-center items-center">
                       <img 
                         src="/lovable-uploads/818da153-d9b5-4f82-ac17-c36b3b3836d5.png" 
                         alt="Company Logo"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                     </div>
                   </div>
@@ -113,19 +113,19 @@ const AboutSection = () => {
                       <img 
                         src="/lovable-uploads/72ecff77-9e37-4c46-b0b3-fab90bd9681c.png" 
                         alt="HGO - Clinique Jules Verne"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                       <img 
                         src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
                         alt="SOFCOT"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                     </div>
                     <div className="flex justify-center items-center">
                       <img 
                         src="/lovable-uploads/490f3aaf-50b1-4149-966b-adc776cadc19.png" 
                         alt="SFCM"
-                        className="h-16 object-contain"
+                        className="h-12 object-contain"
                       />
                     </div>
                   </div>
