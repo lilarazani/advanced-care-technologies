@@ -104,20 +104,22 @@ const AboutSection = () => {
                 {/* School logos for Edward only */}
                 {index === 2 && (
                   <div className="flex flex-col items-center gap-4 mb-6">
-                    <div className="flex justify-end items-center pr-4">
-                      <img 
-                        src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
-                        alt="SOFCOT"
-                        className="h-20 object-contain"
-                      />
-                      <img 
-                        src="/lovable-uploads/490f3aaf-50b1-4149-966b-adc776cadc19.png" 
-                        alt="SFCM"
-                        className="h-16 object-contain"
-                      />
+                    <div className="flex justify-center items-center gap-6">
                       <img 
                         src="/lovable-uploads/72ecff77-9e37-4c46-b0b3-fab90bd9681c.png" 
                         alt="HGO - Clinique Jules Verne"
+                        className="h-16 object-contain"
+                      />
+                      <img 
+                        src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
+                        alt="SOFCOT"
+                        className="h-16 object-contain"
+                      />
+                    </div>
+                    <div className="flex justify-center items-center">
+                      <img 
+                        src="/lovable-uploads/490f3aaf-50b1-4149-966b-adc776cadc19.png" 
+                        alt="SFCM"
                         className="h-16 object-contain"
                       />
                     </div>
