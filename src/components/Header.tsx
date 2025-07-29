@@ -51,7 +51,10 @@ const Header = () => {
                 Fr
               </button>
             </div>
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+            <Button 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               {t('contact.us')}
             </Button>
           </div>
