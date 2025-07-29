@@ -51,6 +51,27 @@ const AboutSection = () => {
                   {member.title}
                 </div>
 
+                {/* School logos for Gabriel only */}
+                {index === 0 && (
+                  <div className="flex justify-center items-center gap-4 mb-6">
+                    <img 
+                      src="/lovable-uploads/11e3444b-0edf-4fd8-b464-ed1e609af5c0.png" 
+                      alt="Sup'Biotech"
+                      className="h-8 object-contain"
+                    />
+                    <img 
+                      src="/lovable-uploads/285f121f-bdd7-40dd-8c9e-1b0bbfa1d2eb.png" 
+                      alt="ESME"
+                      className="h-8 object-contain"
+                    />
+                    <img 
+                      src="/lovable-uploads/f696c7dc-ada6-456d-92b4-d8f79896251d.png" 
+                      alt="I-Stem"
+                      className="h-8 object-contain"
+                    />
+                  </div>
+                )}
+
                 {/* Qualifications */}
                 <ul className="text-left space-y-2 text-primary/80">
                   {member.qualifications.map((qualification, qIndex) => (
