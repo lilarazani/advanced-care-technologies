@@ -115,8 +115,6 @@ const AboutSection = () => {
                         alt="SFCM"
                         className="h-16 object-contain"
                       />
-                    </div>
-                    <div className="flex justify-center items-center">
                       <img 
                         src="/lovable-uploads/72ecff77-9e37-4c46-b0b3-fab90bd9681c.png" 
                         alt="HGO - Clinique Jules Verne"
