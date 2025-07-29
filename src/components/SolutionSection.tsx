@@ -5,16 +5,16 @@ const SolutionSection = () => {
   }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-8">
+          <h2 className="text-4xl lg:text-5xl font-bold text-primary text-center mb-4">
             Our solution
           </h2>
           
-          <p className="text-2xl text-accent text-center mb-16">
+          <p className="text-2xl text-accent text-center mb-8">
             A disruptive innovation : an IoT device monitored by a software powered by AI
           </p>
 
           {/* Digi'Skin Logo */}
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 relative -mt-4">
             <img 
               src="/lovable-uploads/c990606f-f755-4fe9-b6f8-90826a8b38bc.png" 
               alt="Digi'Skin Logo" 
