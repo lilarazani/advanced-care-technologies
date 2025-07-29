@@ -18,7 +18,7 @@ const MissionSection = () => {
 
           <div className="relative">
             <img 
-              src="/lovable-uploads/d817f9f3-7160-49f9-979d-b6c826da9792.png" 
+              src="/lovable-uploads/f3d3e482-78a4-4579-81ba-7eb027d7ad54.png" 
               alt="Mission cards overview" 
               className="w-full h-auto"
             />
