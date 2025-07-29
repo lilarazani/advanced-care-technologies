@@ -104,7 +104,7 @@ const AboutSection = () => {
                 {/* School logos for Edward only */}
                 {index === 2 && (
                   <div className="flex flex-col items-center gap-4 mb-6">
-                    <div className="flex justify-center items-center gap-6">
+                    <div className="flex justify-center items-center">
                       <img 
                         src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
                         alt="SOFCOT"
