@@ -27,17 +27,17 @@ const MissionSection = () => {
             <div className="absolute inset-0 flex items-end justify-center pb-6">
               <div className="grid grid-cols-3 gap-16 w-full max-w-6xl px-8">
                 <div className="text-center -ml-8">
-                  <p className="text-yellow-400 text-xl font-bold">
+                  <p className="text-2xl font-bold" style={{ color: '#f4a756' }}>
                     {t('mission.card1')}
                   </p>
                 </div>
                 <div className="text-center">
-                  <p className="text-yellow-400 text-xl font-bold">
+                  <p className="text-2xl font-bold" style={{ color: '#f4a756' }}>
                     {t('mission.card2')}
                   </p>
                 </div>
                 <div className="text-center -mr-8">
-                  <p className="text-yellow-400 text-xl font-bold">
+                  <p className="text-2xl font-bold" style={{ color: '#f4a756' }}>
                     {t('mission.card3')}
                   </p>
                 </div>
