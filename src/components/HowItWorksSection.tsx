@@ -25,7 +25,8 @@ const HowItWorksSection = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-lg text-primary" dangerouslySetInnerHTML={{ __html: t('how.feature1') }}>
+                  <p className="text-lg text-primary">
+                    {t('how.feature1')}
                   </p>
                 </div>
               </div>
@@ -40,7 +41,8 @@ const HowItWorksSection = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-lg text-primary" dangerouslySetInnerHTML={{ __html: t('how.feature2') }}>
+                  <p className="text-lg text-primary">
+                    {t('how.feature2')}
                   </p>
                 </div>
               </div>
@@ -55,7 +57,8 @@ const HowItWorksSection = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-lg text-primary" dangerouslySetInnerHTML={{ __html: t('how.feature3') }}>
+                  <p className="text-lg text-primary">
+                    {t('how.feature3')}
                   </p>
                 </div>
               </div>
