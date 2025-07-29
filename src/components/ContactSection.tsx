@@ -17,10 +17,16 @@ const ContactSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+            <Button 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6"
+              onClick={() => window.location.href = 'mailto:gabriel.eleuterio@digiskin-act.fr'}
+            >
               gabriel.eleuterio@digiskin-act.fr
             </Button>
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+            <Button 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6"
+              onClick={() => window.location.href = 'mailto:manon.frajman@hotmail.fr'}
+            >
               manon.frajman@hotmail.fr
             </Button>
           </div>
