@@ -16,12 +16,33 @@ const MissionSection = () => {
             {t('mission.subtitle')}
           </p>
 
-          <div className="flex justify-center">
+          <div className="relative">
             <img 
-              src="/lovable-uploads/4c72dd85-717e-4b07-afc1-aad276e8565f.png" 
+              src="/lovable-uploads/d817f9f3-7160-49f9-979d-b6c826da9792.png" 
               alt="Mission cards overview" 
-              className="max-w-full h-auto"
+              className="w-full h-auto"
             />
+            
+            {/* Text overlay */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="grid grid-cols-3 gap-8 w-full max-w-4xl px-8">
+                <div className="text-center text-white">
+                  <p className="text-lg font-semibold">
+                    {t('mission.card1')}
+                  </p>
+                </div>
+                <div className="text-center text-white">
+                  <p className="text-lg font-semibold">
+                    {t('mission.card2')}
+                  </p>
+                </div>
+                <div className="text-center text-white">
+                  <p className="text-lg font-semibold">
+                    {t('mission.card3')}
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
