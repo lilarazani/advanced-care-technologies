@@ -13,61 +13,49 @@ const MissionSection = () => {
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Card 2 - Restore sensations */}
+            {/* Card 1 - Restore sensations */}
             <div className="relative">
-              {/* Image centrée dans l'espace vide avec bulle */}
-              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-40 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png" alt="Hand with touch indicators" className="w-20 h-20 object-contain" />
-                </div>
+              {/* Image qui dépasse de la carte */}
+              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
+                <img src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png" alt="Hand with touch indicators" className="w-16 h-16 object-contain" />
               </div>
               
-              {/* Carte rectangulaire */}
-              <div className="bg-primary rounded-3xl text-center p-8 pt-24 h-64 flex flex-col justify-center">
-                <h3 className="text-2xl font-bold text-accent mb-4">
+              {/* Carte avec coins très arrondis */}
+              <div className="bg-primary rounded-[2.5rem] text-center p-8 pt-16 h-48 flex flex-col justify-center">
+                <h3 className="text-xl font-bold text-accent">
                   Restore sensations
                 </h3>
-                
-                
               </div>
             </div>
 
-            {/* Card 3 - Regain balance */}
+            {/* Card 2 - Regain balance */}
             <div className="relative">
-              {/* Image centrée dans l'espace vide avec bulle */}
-              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-40 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png" alt="Person falling illustration" className="w-20 h-20 object-contain" />
-                </div>
+              {/* Image qui dépasse de la carte */}
+              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
+                <img src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png" alt="Person falling illustration" className="w-16 h-16 object-contain" />
               </div>
               
-              {/* Carte rectangulaire */}
-              <div className="bg-primary rounded-3xl text-center p-8 pt-24 h-64 flex flex-col justify-center">
-                <h3 className="text-2xl font-bold text-accent mb-4">
+              {/* Carte avec coins très arrondis */}
+              <div className="bg-primary rounded-[2.5rem] text-center p-8 pt-16 h-48 flex flex-col justify-center">
+                <h3 className="text-xl font-bold text-accent">
                   Regain balance
                 </h3>
-                
-                
               </div>
             </div>
 
-            {/* Card 1 - Prevent the risk */}
+            {/* Card 3 - Prevent the risk */}
             <div className="relative">
-              {/* Image centrée dans l'espace vide avec bulle */}
-              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
-                <div className="w-40 h-28 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png" alt="Foot with pain indicators" className="w-20 h-20 object-contain" />
-                </div>
+              {/* Image qui dépasse de la carte */}
+              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
+                <img src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png" alt="Foot with pain indicators" className="w-16 h-16 object-contain" />
               </div>
               
-              {/* Carte rectangulaire */}
-              <div className="bg-primary rounded-3xl text-center p-8 pt-24 h-64 flex flex-col justify-center">
-                <h3 className="text-2xl font-bold text-accent mb-4">
-                  Prevent the risk of<br />
-                  injuries and pain
+              {/* Carte avec coins très arrondis */}
+              <div className="bg-primary rounded-[2.5rem] text-center p-8 pt-16 h-48 flex flex-col justify-center">
+                <h3 className="text-xl font-bold text-accent">
+                  Prevent the risk of pain<br />
+                  and injuries
                 </h3>
-                
-                
               </div>
             </div>
           </div>
