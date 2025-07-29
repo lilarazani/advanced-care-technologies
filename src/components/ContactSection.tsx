@@ -16,9 +16,14 @@ const ContactSection = () => {
             To learn more about our solution or find out about opportunities at Peekcell, please contact us at:
           </p>
           
-          <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
-            gabriel.eleuterio@digiskin-act.fr manon.frajman@hotmail.fr
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+              gabriel.eleuterio@digiskin-act.fr
+            </Button>
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+              manon.frajman@hotmail.fr
+            </Button>
+          </div>
         </div>
       </div>
     </section>
