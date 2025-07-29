@@ -25,21 +25,27 @@ const MissionSection = () => {
             
             {/* Text overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="grid grid-cols-3 gap-8 w-full max-w-4xl px-8">
-                <div className="text-center text-white">
-                  <p className="text-lg font-semibold">
-                    {t('mission.card1')}
-                  </p>
+              <div className="grid grid-cols-3 gap-8 w-full max-w-5xl px-8">
+                <div className="text-center">
+                  <div className="bg-blue-600 rounded-lg p-6 mx-4">
+                    <p className="text-yellow-400 text-xl font-nunito font-bold">
+                      {t('mission.card1')}
+                    </p>
+                  </div>
                 </div>
-                <div className="text-center text-white">
-                  <p className="text-lg font-semibold">
-                    {t('mission.card2')}
-                  </p>
+                <div className="text-center">
+                  <div className="bg-blue-600 rounded-lg p-6 mx-4">
+                    <p className="text-yellow-400 text-xl font-nunito font-bold">
+                      {t('mission.card2')}
+                    </p>
+                  </div>
                 </div>
-                <div className="text-center text-white">
-                  <p className="text-lg font-semibold">
-                    {t('mission.card3')}
-                  </p>
+                <div className="text-center">
+                  <div className="bg-blue-600 rounded-lg p-6 mx-4">
+                    <p className="text-yellow-400 text-xl font-nunito font-bold">
+                      {t('mission.card3')}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
