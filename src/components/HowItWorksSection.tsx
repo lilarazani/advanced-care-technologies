@@ -17,7 +17,7 @@ const HowItWorksSection = () => {
             <div className="lg:w-1/2 space-y-12">
               {/* Feature 1 */}
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 -mt-2">
                   <img 
                     src="/lovable-uploads/fb792348-7ecf-4d83-b560-7e8eb02c71fd.png" 
                     alt="Sensor technology icon" 
@@ -33,7 +33,7 @@ const HowItWorksSection = () => {
 
               {/* Feature 2 */}
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 -mt-2">
                   <img 
                     src="/lovable-uploads/c09d82d9-f58e-4f56-b022-99150078a50a.png" 
                     alt="Software technology icon" 
@@ -49,7 +49,7 @@ const HowItWorksSection = () => {
 
               {/* Feature 3 */}
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 -mt-2">
                   <img 
                     src="/lovable-uploads/4b94403d-2e8b-4fc9-9db3-7ee3c3ddd54c.png" 
                     alt="Stimulation bracelet icon" 
