@@ -12,52 +12,12 @@ const MissionSection = () => {
             With haptic feedback, we aim to :
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Card 1 - Restore sensations */}
-            <div className="relative">
-              {/* Image qui dépasse de la carte */}
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
-                <img src="/lovable-uploads/01d5f442-ef93-4ae5-afd6-22f7a14b8874.png" alt="Hand with touch indicators" className="w-16 h-16 object-contain" />
-              </div>
-              
-              {/* Carte avec coins très arrondis */}
-              <div className="bg-primary rounded-[2.5rem] text-center p-8 pt-16 h-48 flex flex-col justify-center">
-                <h3 className="text-xl font-bold text-accent">
-                  Restore sensations
-                </h3>
-              </div>
-            </div>
-
-            {/* Card 2 - Regain balance */}
-            <div className="relative">
-              {/* Image qui dépasse de la carte */}
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
-                <img src="/lovable-uploads/256dbbef-0449-4b77-9553-14a9e661aa40.png" alt="Person falling illustration" className="w-16 h-16 object-contain" />
-              </div>
-              
-              {/* Carte avec coins très arrondis */}
-              <div className="bg-primary rounded-[2.5rem] text-center p-8 pt-16 h-48 flex flex-col justify-center">
-                <h3 className="text-xl font-bold text-accent">
-                  Regain balance
-                </h3>
-              </div>
-            </div>
-
-            {/* Card 3 - Prevent the risk */}
-            <div className="relative">
-              {/* Image qui dépasse de la carte */}
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
-                <img src="/lovable-uploads/aa587c8d-a4f0-43f3-b386-85ba4185486a.png" alt="Foot with pain indicators" className="w-16 h-16 object-contain" />
-              </div>
-              
-              {/* Carte avec coins très arrondis */}
-              <div className="bg-primary rounded-[2.5rem] text-center p-8 pt-16 h-48 flex flex-col justify-center">
-                <h3 className="text-xl font-bold text-accent">
-                  Prevent the risk of pain<br />
-                  and injuries
-                </h3>
-              </div>
-            </div>
+          <div className="flex justify-center">
+            <img 
+              src="/lovable-uploads/63a87eb2-c5b8-4abe-82c6-030e3681e9a2.png" 
+              alt="Mission cards overview" 
+              className="max-w-full h-auto"
+            />
           </div>
         </div>
       </div>
