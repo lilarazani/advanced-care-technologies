@@ -95,34 +95,40 @@ const AboutSection = () => {
 
                 {/* School logos for Edward only */}
                 {index === 2 && (
-                  <div className="flex justify-center items-center gap-4 mb-6">
-                    <img 
-                      src="/lovable-uploads/6173a4e1-a1ac-4589-8fbc-757499deb3a7.png" 
-                      alt="SOFCOT"
-                      className="h-8 object-contain"
-                    />
-                    <img 
-                      src="/lovable-uploads/e1331038-381a-428f-a252-9461a8803b94.png" 
-                      alt="SFCM"
-                      className="h-8 object-contain"
-                    />
-                    <img 
-                      src="/lovable-uploads/f4e6c194-13ff-4b71-9c39-fe338adfc53b.png" 
-                      alt="Clinique Jules Verne"
-                      className="h-8 object-contain"
-                    />
+                  <div className="flex flex-col items-center gap-4 mb-6">
+                    <div className="flex justify-center items-center gap-4">
+                      <img 
+                        src="/lovable-uploads/6173a4e1-a1ac-4589-8fbc-757499deb3a7.png" 
+                        alt="SOFCOT"
+                        className="h-16 object-contain"
+                      />
+                      <img 
+                        src="/lovable-uploads/e1331038-381a-428f-a252-9461a8803b94.png" 
+                        alt="SFCM"
+                        className="h-16 object-contain"
+                      />
+                    </div>
+                    <div className="flex justify-center">
+                      <img 
+                        src="/lovable-uploads/f4e6c194-13ff-4b71-9c39-fe338adfc53b.png" 
+                        alt="Clinique Jules Verne"
+                        className="h-16 object-contain"
+                      />
+                    </div>
                   </div>
                 )}
 
                 {/* Qualifications */}
-                <ul className="text-left space-y-2 text-primary/80">
-                  {member.qualifications.map((qualification, qIndex) => (
-                    <li key={qIndex} className="flex items-start">
-                      <span className="text-accent mr-2 flex-shrink-0">•</span>
-                      {qualification}
-                    </li>
-                  ))}
-                </ul>
+                {index !== 2 && (
+                  <ul className="text-left space-y-2 text-primary/80">
+                    {member.qualifications.map((qualification, qIndex) => (
+                      <li key={qIndex} className="flex items-start">
+                        <span className="text-accent mr-2 flex-shrink-0">•</span>
+                        {qualification}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
               );
             })}
