@@ -14,6 +14,9 @@ const Footer = () => {
         >
           Legal Mention & CGU
         </Link>
+        <div className="text-xs text-muted-foreground mt-4">
+          © Advanced Care Technologies - 2025 - All Rights Reserved
+        </div>
       </div>
     </footer>
   );
