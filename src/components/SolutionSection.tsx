@@ -16,7 +16,7 @@ const SolutionSection = () => {
           {/* Digi'Skin Logo */}
           <div className="flex justify-center mb-8">
             <img 
-              src="/lovable-uploads/5f8b3639-372c-4e2a-8843-49b3da871352.png" 
+              src="/lovable-uploads/c990606f-f755-4fe9-b6f8-90826a8b38bc.png" 
               alt="Digi'Skin Logo" 
               className="h-24 lg:h-32"
             />
@@ -25,7 +25,7 @@ const SolutionSection = () => {
           {/* Prosthetic Hand Image */}
           <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/dd00f25f-3c3b-4cfa-8f8a-25b78c9c5772.png" 
+              src="/lovable-uploads/13d843d7-b713-46d6-8e55-cd85095d6073.png" 
               alt="Prosthetic Hand with Haptic Technology" 
               className="max-w-md lg:max-w-lg w-full h-auto"
             />
