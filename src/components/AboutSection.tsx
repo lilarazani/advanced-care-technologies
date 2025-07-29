@@ -93,6 +93,27 @@ const AboutSection = () => {
                   </div>
                 )}
 
+                {/* School logos for Edward only */}
+                {index === 2 && (
+                  <div className="flex justify-center items-center gap-4 mb-6">
+                    <img 
+                      src="/lovable-uploads/72ecff77-9e37-4c46-b0b3-fab90bd9681c.png" 
+                      alt="HGO - Clinique Jules Verne"
+                      className="h-8 object-contain"
+                    />
+                    <img 
+                      src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
+                      alt="SOFCOT"
+                      className="h-8 object-contain"
+                    />
+                    <img 
+                      src="/lovable-uploads/490f3aaf-50b1-4149-966b-adc776cadc19.png" 
+                      alt="SFCM"
+                      className="h-8 object-contain"
+                    />
+                  </div>
+                )}
+
                 {/* Qualifications */}
                 <ul className="text-left space-y-2 text-primary/80">
                   {member.qualifications.map((qualification, qIndex) => (
