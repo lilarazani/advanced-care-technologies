@@ -29,7 +29,7 @@ const SolutionSection = () => {
           {/* Prosthetic Hand Image */}
           <div className="flex justify-center -mt-32 -ml-8">
             <img 
-              src="/lovable-uploads/13d843d7-b713-46d6-8e55-cd85095d6073.png" 
+              src="/lovable-uploads/e44856a1-5d9b-4726-8dfc-a4924ccfaf6c.png" 
               alt="Prosthetic Hand with Haptic Technology" 
               className="max-w-4xl w-full h-auto"
             />
