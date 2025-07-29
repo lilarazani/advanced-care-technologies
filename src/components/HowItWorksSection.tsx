@@ -16,7 +16,7 @@ const HowItWorksSection = () => {
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0">
                   <img 
-                    src="/lovable-uploads/28534c51-e0a3-4c2f-a872-ef98326443f4.png" 
+                    src="/lovable-uploads/fb792348-7ecf-4d83-b560-7e8eb02c71fd.png" 
                     alt="Sensor technology icon" 
                     className="w-20 h-20 object-contain"
                   />
