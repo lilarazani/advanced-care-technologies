@@ -18,7 +18,7 @@ const SolutionSection = () => {
             <img 
               src="/lovable-uploads/c990606f-f755-4fe9-b6f8-90826a8b38bc.png" 
               alt="Digi'Skin Logo" 
-              className="h-24 lg:h-32"
+              className="h-32 lg:h-40"
             />
           </div>
 
