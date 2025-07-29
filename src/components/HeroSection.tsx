@@ -1,15 +1,10 @@
 const heroImage = "/lovable-uploads/93910807-de01-47c7-a89b-ccec13fa90db.png";
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="min-h-screen relative overflow-hidden">
+  return <section id="home" className="min-h-screen relative overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-        }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
       </div>
 
       {/* Content */}
@@ -22,10 +17,7 @@ const HeroSection = () => {
           </h1>
           
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-primary/80">
-            <p>
-              Digi'Skin by Advanced Care Technologies is the haptic feedback device that improves the 
-              motor control of prostheses and restores sensations in the simplest way possible.
-            </p>
+            <p>Digi'Skin by Advanced Care Technologies is the haptic feedback device that restores sensations in the simplest way possible.</p>
             
             <p>
               It is based on a smart technology that combines embedded force sensors and real time 
@@ -34,8 +26,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
