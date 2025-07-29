@@ -14,11 +14,11 @@ const SolutionSection = () => {
           </p>
 
           {/* Digi'Skin Logo */}
-          <div className="flex justify-center mb-8 relative -mt-4">
+          <div className="flex justify-center mb-8 relative">
             <img 
               src="/lovable-uploads/c990606f-f755-4fe9-b6f8-90826a8b38bc.png" 
               alt="Digi'Skin Logo" 
-              className="h-32 lg:h-40"
+              className="h-32 lg:h-40 relative z-10"
             />
           </div>
 
@@ -27,7 +27,7 @@ const SolutionSection = () => {
             <img 
               src="/lovable-uploads/13d843d7-b713-46d6-8e55-cd85095d6073.png" 
               alt="Prosthetic Hand with Haptic Technology" 
-              className="max-w-4xl w-full h-auto"
+              className="max-w-4xl w-full h-auto relative z-0"
             />
           </div>
         </div>
