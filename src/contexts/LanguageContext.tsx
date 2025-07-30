@@ -39,11 +39,11 @@ const translations = {
     // Numbers Section
     'numbers.title': 'In numbers',
     'numbers.stat1': 'of global population have',
-    'numbers.stat1.line2': '<span class="font-bold text-orange-500">sensory loss</span>',
+    'numbers.stat1.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">sensory loss</span>',
     'numbers.stat2': 'of cases associated with',
-    'numbers.stat2.line2': '<span class="font-bold text-orange-500">chronic pain</span>',
+    'numbers.stat2.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">chronic pain</span>',
     'numbers.stat3': 'The average cost',
-    'numbers.stat3.line2': '<span class="font-bold text-orange-500">per patient</span>',
+    'numbers.stat3.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">per patient</span>',
     
     // How It Works Section
     'how.title': 'How it works',
@@ -85,11 +85,11 @@ const translations = {
     // Numbers Section
     'numbers.title': 'En chiffres',
     'numbers.stat1': 'de la population mondiale ont',
-    'numbers.stat1.line2': '<span class="font-bold text-orange-500">une perte sensorielle</span>',
+    'numbers.stat1.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">une perte sensorielle</span>',
     'numbers.stat2': 'des cas associés à',
-    'numbers.stat2.line2': '<span class="font-bold text-orange-500">des douleurs chroniques</span>',
+    'numbers.stat2.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">des douleurs chroniques</span>',
     'numbers.stat3': 'Le coût moyen',
-    'numbers.stat3.line2': '<span class="font-bold text-orange-500">par patient</span>',
+    'numbers.stat3.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">par patient</span>',
     
     // How It Works Section
     'how.title': 'Comment ça marche',
