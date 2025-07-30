@@ -8,7 +8,7 @@ const NumbersSection = () => {
   }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-20" style={{ color: 'hsl(28, 95%, 65%)' }}>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-20 text-primary">
             {t('numbers.title')}
           </h2>
 
