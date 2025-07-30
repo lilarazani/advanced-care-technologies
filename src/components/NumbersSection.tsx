@@ -15,10 +15,10 @@ const NumbersSection = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-16">
             {/* Statistic 1 */}
             <div className="text-center flex-1">
-              <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
+              <div className="text-6xl lg:text-8xl font-bold mb-4" style={{ color: 'hsl(220, 91%, 54%)' }}>
                 10%
               </div>
-              <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+              <p className="text-xl" style={{ color: 'hsl(220, 91%, 54%, 0.7)' }} dangerouslySetInnerHTML={{
                 __html: `${t('numbers.stat1')}<br />${t('numbers.stat1.line2')}`
               }} />
             </div>
@@ -35,10 +35,10 @@ const NumbersSection = () => {
 
             {/* Statistic 2 */}
             <div className="text-center flex-1">
-              <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
+              <div className="text-6xl lg:text-8xl font-bold mb-4" style={{ color: 'hsl(220, 91%, 54%)' }}>
                 50%
               </div>
-              <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+              <p className="text-xl" style={{ color: 'hsl(220, 91%, 54%, 0.7)' }} dangerouslySetInnerHTML={{
                 __html: `${t('numbers.stat2')}<br />${t('numbers.stat2.line2')}`
               }} />
             </div>
@@ -55,10 +55,10 @@ const NumbersSection = () => {
 
             {/* Statistic 3 */}
             <div className="text-center flex-1">
-               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
+               <div className="text-6xl lg:text-8xl font-bold mb-4" style={{ color: 'hsl(220, 91%, 54%)' }}>
                  €15,000
                </div>
-               <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+               <p className="text-xl" style={{ color: 'hsl(220, 91%, 54%, 0.7)' }} dangerouslySetInnerHTML={{
                  __html: `${t('numbers.stat3')}<br />${t('numbers.stat3.line2')}`
                }} />
             </div>
