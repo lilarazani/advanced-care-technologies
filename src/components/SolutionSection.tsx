@@ -22,7 +22,7 @@ const SolutionSection = () => {
             <img 
               src="/lovable-uploads/c990606f-f755-4fe9-b6f8-90826a8b38bc.png" 
               alt="Digi'Skin Logo" 
-              className="h-48 lg:h-56"
+              className="h-64 lg:h-80"
             />
           </div>
 
