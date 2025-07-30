@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-5xl lg:text-7xl font-bold text-primary mb-8 leading-tight">
+          <h1 className="text-5xl lg:text-7xl font-bold text-accent mb-8 leading-tight">
             {t('hero.title')}<br />
             {t('hero.subtitle')}<br />
             <span className="text-primary">{t('hero.highlight')}</span>
