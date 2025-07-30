@@ -18,10 +18,9 @@ const NumbersSection = () => {
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 10%
               </div>
-              <p className="text-xl text-primary/70">
-                {t('numbers.stat1')}<br />
-                {t('numbers.stat1.line2')}
-              </p>
+              <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+                __html: `${t('numbers.stat1')}<br />${t('numbers.stat1.line2')}`
+              }} />
             </div>
 
             {/* Separator */}
@@ -39,10 +38,9 @@ const NumbersSection = () => {
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 50%
               </div>
-              <p className="text-xl text-primary/70">
-                {t('numbers.stat2')}<br />
-                {t('numbers.stat2.line2')}
-              </p>
+              <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+                __html: `${t('numbers.stat2')}<br />${t('numbers.stat2.line2')}`
+              }} />
             </div>
 
             {/* Separator */}
@@ -60,10 +58,9 @@ const NumbersSection = () => {
                <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                  €15,000
                </div>
-               <p className="text-xl text-primary/70">
-                 {t('numbers.stat3')}<br />
-                 {t('numbers.stat3.line2')}
-               </p>
+               <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+                 __html: `${t('numbers.stat3')}<br />${t('numbers.stat3.line2')}`
+               }} />
             </div>
           </div>
         </div>
