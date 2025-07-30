@@ -21,7 +21,7 @@ const HeroSection = () => {
           </h1>
           
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-primary/80">
-            <p className="text-xl">{t('hero.description1')}</p>
+            <p className="text-xl font-bold" style={{ color: 'hsl(28, 95%, 65%)' }}>{t('hero.description1')}</p>
             
             <p className="text-xl">{t('hero.description2')}</p>
           </div>
