@@ -31,7 +31,7 @@ const Legal = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-primary mb-4">Article 1 : Informations légales</h2>
               <p>
-                Le site www.Advanced-Care-Technologies.fr est édité par Advanced Care Technologies, au capital social de 10 000 euros, immatriculée au RCS de Versailles sous le numéro 983264292, dont le siège social est situé au 7 RUE DU BOIS LAINE, 78790 COURGENT, France. Adresse e-mail : manon.frajman@hotmail.fr. Le Directeur de la publication est : ELEUTERIO Gabriel, en qualité de CEO de Advanced Care Technologies. Conformément aux articles 6-III et 19 de la Loi « Confiance dans l'Économie Numérique », il est porté à la connaissance des utilisateurs et visiteurs du site les présentes mentions légales. Le site a été réalisé à l'aide de la plateforme Lovable : FRAJMAN Manon, COO de Advanced Care Technologies.
+                Le site www.Advanced-Care-Technologies.fr est édité par Advanced Care Technologies, au capital social de 10 000 euros, immatriculée au RCS de Versailles sous le numéro 983264292, dont le siège social est situé au 7 RUE DU BOIS LAINE, 78790 COURGENT, France. Adresse e-mail : manon.frajman@hotmail.fr. Le Directeur de la publication est : ELEUTERIO Gabriel, en qualité de CEO de Advanced Care Technologies. Conformément aux articles 6-III et 19 de la Loi « Confiance dans l'Économie Numérique », il est porté à la connaissance des utilisateurs et visiteurs du site les présentes mentions légales. Le site a été réalisé à l'aide de la plateforme Lovable.
               </p>
             </section>
 
