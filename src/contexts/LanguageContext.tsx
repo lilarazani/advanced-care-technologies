@@ -93,7 +93,7 @@ const translations = {
     'mission.subtitle': 'Avec le retour haptique, nous visons à :',
     'mission.card1': 'Restaurer les sensations',
     'mission.card2': 'Retrouver l\'équilibre',
-    'mission.card3': 'Prévenir les douleurs et blessures',
+    'mission.card3': 'Prévenir les risques de douleur\net de blessures',
     
     // Solution Section
     'solution.title': 'Notre solution',
