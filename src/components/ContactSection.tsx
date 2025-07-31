@@ -9,11 +9,11 @@ const ContactSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-8">
-            Be a part of our vision
+            {t('contact.title')}
           </h2>
           
           <p className="text-xl text-primary/70 mb-8">
-            To learn more about our solution or find out about opportunities at Advanced Care Technologies, please contact us at:
+            {t('contact.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

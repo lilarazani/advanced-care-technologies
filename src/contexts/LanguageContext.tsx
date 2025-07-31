@@ -53,9 +53,26 @@ const translations = {
     
     // About Section
     'about.title': 'About us',
+    'about.gabriel.name': 'Gabriel ELEUTERIO',
+    'about.gabriel.role': 'CEO & cofounder',
+    'about.gabriel.qualifications': 'Biotechnology Engineer (Sup\'Biotech) • ESME - Specialized Master in Digital and Biotechnology (Robotics) • Inventor of sensory restitution technology: Digi\'Skin',
+    'about.manon.name': 'Manon Frajman',
+    'about.manon.role': 'COO & cofounder',
+    'about.manon.qualifications': 'Biotechnology Engineer (Sup\'Biotech) • Product Manager and Clinical Project Manager in Medical Device Startups • Self-employed: drafting of financing applications',
+    'about.edward.name': 'Edward De Keating - Hart',
+    'about.edward.role': 'Orthopedic Surgeon & cofounder',
+    'about.edward.qualifications': 'Orthopedic Surgeon • Member of the French Society of Orthopaedic and Traumatological Surgery (SOFCOT) • Associate member of the French Society of Hand Surgery (SFCM)',
     
     // Partnerships Section
     'partnerships.title': 'Partnerships & Collaborations',
+    
+    // Contact Section
+    'contact.title': 'Be a part of our vision',
+    'contact.description': 'To learn more about our solution or find out about opportunities at Advanced Care Technologies, please contact us at:',
+    
+    // Footer
+    'footer.legal': 'Legal Mention & CGU',
+    'footer.copyright': '© Advanced Care Technologies - 2025 - All Rights Reserved',
   },
   fr: {
     // Header
@@ -99,9 +116,26 @@ const translations = {
     
     // About Section
     'about.title': 'À propos de nous',
+    'about.gabriel.name': 'Gabriel ELEUTERIO',
+    'about.gabriel.role': 'CEO & cofondateur',
+    'about.gabriel.qualifications': 'Ingénieur en Biotechnologie (Sup\'Biotech) • ESME - Mastère Spécialisé en Numérique et Biotechnologie (Robotique) • Inventeur de la technologie de restitution sensorielle : Digi\'Skin',
+    'about.manon.name': 'Manon Frajman',
+    'about.manon.role': 'COO & cofondatrice',
+    'about.manon.qualifications': 'Ingénieure en Biotechnologie (Sup\'Biotech) • Product Manager et Clinical Project Manager dans des startups de dispositifs médicaux • Auto-entrepreneur : rédaction de dossiers de financement',
+    'about.edward.name': 'Edward De Keating - Hart',
+    'about.edward.role': 'Chirurgien Orthopédiste & cofondateur',
+    'about.edward.qualifications': 'Chirurgien Orthopédiste • Membre de la Société Française de Chirurgie Orthopédique et Traumatologique (SOFCOT) • Membre associé de la Société Française de Chirurgie de la Main (SFCM)',
     
     // Partnerships Section
     'partnerships.title': 'Partenariats et Collaborations',
+    
+    // Contact Section
+    'contact.title': 'Rejoignez notre vision',
+    'contact.description': 'Pour en savoir plus sur notre solution ou découvrir les opportunités chez Advanced Care Technologies, contactez-nous à :',
+    
+    // Footer
+    'footer.legal': 'Mentions Légales & CGU',
+    'footer.copyright': '© Advanced Care Technologies - 2025 - Tous Droits Réservés',
   }
 };
 

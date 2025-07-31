@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+
   return (
     <footer className="mt-20">
       <div className="w-full h-px bg-border"></div>
@@ -12,10 +15,10 @@ const Footer = () => {
           to="/legal" 
           className="text-muted-foreground hover:text-primary transition-colors underline"
         >
-          Legal Mention & CGU
+          {t('footer.legal')}
         </Link>
         <div className="text-xs text-muted-foreground mt-4">
-          © Advanced Care Technologies - 2025 - All Rights Reserved
+          {t('footer.copyright')}
         </div>
       </div>
     </footer>
