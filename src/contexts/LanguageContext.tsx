@@ -22,7 +22,7 @@ const translations = {
     'hero.title': 'First Human Machine',
     'hero.subtitle': 'Interface that reconnects the',
     'hero.highlight': 'body to the brain',
-    'hero.description1': "Digi'Skin by Advanced Care Technologies is the haptic feedback device that restores sensations in the simplest way possible.",
+    'hero.description1': "Digi'Skin by Advanced Care Technologies is a haptic feedback device that restores sensations in the simplest way possible.",
     'hero.description2': 'It is based on a smart technology that combines embedded force sensors and real time processing powered by AI to provide accurate feedback.',
     
     // Mission Section
@@ -68,7 +68,7 @@ const translations = {
     'hero.title': 'Première Interface',
     'hero.subtitle': 'Homme-Machine qui reconnecte le',
     'hero.highlight': 'corps au cerveau',
-    'hero.description1': "Digi'Skin par Advanced Care Technologies est le dispositif de retour haptique qui restaure les sensations de la manière la plus simple possible.",
+    'hero.description1': "Digi'Skin par Advanced Care Technologies est un dispositif de retour haptique qui restaure les sensations de la manière la plus simple possible.",
     'hero.description2': 'Il est basé sur une technologie intelligente qui combine des capteurs de force intégrés et un traitement en temps réel alimenté par l\'IA pour fournir un retour précis.',
     
     // Mission Section
