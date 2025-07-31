@@ -90,12 +90,6 @@ const Legal = () => {
               </p>
             </section>
 
-            <section className="mb-8">
-              <h2 className="text-2xl font-semibold text-primary mb-4">Crédits</h2>
-              <p>
-                Ce site a été réalisé en s'inspirant du projet Peekcell.
-              </p>
-            </section>
           </div>
         </div>
       </div>
