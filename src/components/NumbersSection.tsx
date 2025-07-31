@@ -18,7 +18,7 @@ const NumbersSection = () => {
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 10%
               </div>
-              <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+              <p className="text-xl" style={{ color: 'hsl(28, 95%, 65%)' }} dangerouslySetInnerHTML={{
                 __html: `${t('numbers.stat1')}<br />${t('numbers.stat1.line2')}`
               }} />
             </div>
@@ -38,7 +38,7 @@ const NumbersSection = () => {
               <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                 50%
               </div>
-              <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+              <p className="text-xl" style={{ color: 'hsl(28, 95%, 65%)' }} dangerouslySetInnerHTML={{
                 __html: `${t('numbers.stat2')}<br />${t('numbers.stat2.line2')}`
               }} />
             </div>
@@ -58,7 +58,7 @@ const NumbersSection = () => {
                <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
                  €15,000
                </div>
-               <p className="text-xl text-primary/70" dangerouslySetInnerHTML={{
+               <p className="text-xl" style={{ color: 'hsl(28, 95%, 65%)' }} dangerouslySetInnerHTML={{
                  __html: `${t('numbers.stat3')}<br />${t('numbers.stat3.line2')}`
                }} />
             </div>
