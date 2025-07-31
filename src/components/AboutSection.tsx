@@ -118,7 +118,7 @@ const AboutSection = () => {
                       <img 
                         src="/lovable-uploads/a0233144-403f-4c0b-8a65-bb3aa800f3e5.png" 
                         alt="SOFCOT"
-                        className="h-14 object-contain"
+                        className="h-16 object-contain"
                       />
                     </div>
                     <div className="flex justify-center items-center">
