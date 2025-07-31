@@ -36,7 +36,7 @@ const MissionSection = () => {
                     {t('mission.card2')}
                   </p>
                 </div>
-                <div className="text-center -mr-8 -mt-6">
+                <div className="text-center -mr-6 -mt-6">
                   <p style={{
                   color: '#f4a756'
                 }} className="text-2xl font-bold whitespace-pre-line py-0">

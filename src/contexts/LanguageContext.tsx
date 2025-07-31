@@ -30,7 +30,7 @@ const translations = {
     'mission.subtitle': 'With haptic feedback, we aim to :',
     'mission.card1': 'Restore sensations',
     'mission.card2': 'Regain balance',
-    'mission.card3': 'Prevent the risk of pain\nand injuries',
+    'mission.card3': 'Prevent the risk of pain/injuries',
     
     // Solution Section
     'solution.title': 'Our solution',
