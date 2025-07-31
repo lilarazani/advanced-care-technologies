@@ -20,26 +20,26 @@ const MissionSection = () => {
             <img src="/lovable-uploads/f3d3e482-78a4-4579-81ba-7eb027d7ad54.png" alt="Mission cards overview" className="w-full h-auto -mt-8" />
             
             {/* Text overlay */}
-            <div className="absolute inset-0 flex items-center justify-center mt-20 mx-0 px-0 py-[50px] my-[125px]">
-              <div className="grid grid-cols-3 gap-16 w-full max-w-6xl px-8 my-0 py-0">
+            <div className="absolute inset-0 flex items-center justify-center mt-20 py-[50px] mx-0 px-0">
+              <div className="grid grid-cols-3 gap-16 w-full max-w-6xl px-8">
                 <div className="text-center -ml-8 -mt-2">
                   <p style={{
                   color: '#f4a756'
-                }} className="text-2xl font-bold text-[#f4a756] py-[30px]">
+                }} className="text-2xl font-bold py-[30px]">
                     {t('mission.card1')}
                   </p>
                 </div>
                 <div className="text-center -mt-2">
                   <p style={{
                   color: '#f4a756'
-                }} className="text-2xl font-bold py-[30px] text-[#f4a756]">
+                }} className="text-2xl font-bold py-[30px]">
                     {t('mission.card2')}
                   </p>
                 </div>
                 <div className="text-center -mr-6 -mt-6">
                   <p style={{
                   color: '#f4a756'
-                }} className="text-2xl font-bold whitespace-pre-line py-[45px] text-[#f4a756]">
+                }} className="text-2xl font-bold whitespace-pre-line py-[45px]">
                     {t('mission.card3')}
                   </p>
                 </div>
