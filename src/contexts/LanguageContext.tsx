@@ -76,11 +76,11 @@ const translations = {
     'mission.subtitle': 'Avec le retour haptique, nous visons à :',
     'mission.card1': 'Restaurer les sensations',
     'mission.card2': 'Retrouver l\'équilibre',
-    'mission.card3': 'Prévenir les douleurs & blessures',
+    'mission.card3': 'Prévenir les douleurs et blessures',
     
     // Solution Section
     'solution.title': 'Notre solution',
-    'solution.subtitle': 'Une innovation disruptive : un dispositif IoT surveillé par un logiciel alimenté par l\'IA',
+    'solution.subtitle': 'Une innovation de rupture : un dispositif IoT surveillé par un logiciel alimenté par l\'IA',
     
     // Numbers Section
     'numbers.title': 'En chiffres',
