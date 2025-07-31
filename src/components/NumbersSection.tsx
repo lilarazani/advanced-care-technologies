@@ -56,7 +56,7 @@ const NumbersSection = () => {
             {/* Statistic 3 */}
             <div className="text-center flex-1">
                <div className="text-6xl lg:text-8xl font-bold text-primary mb-4">
-                 €15,000
+                 €15k
                </div>
                <p className="text-xl" style={{ color: 'hsl(28, 95%, 65%)' }} dangerouslySetInnerHTML={{
                  __html: `${t('numbers.stat3')}<br />${t('numbers.stat3.line2')}`
