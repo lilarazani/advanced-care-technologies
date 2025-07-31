@@ -97,7 +97,7 @@ const translations = {
     
     // Solution Section
     'solution.title': 'Notre solution',
-    'solution.subtitle': 'Une innovation disruptive : un dispositif IoT surveillé par un logiciel alimenté par l\'IA',
+    'solution.subtitle': 'Une innovation de rupture : un dispositif IoT surveillé par un logiciel alimenté par l\'IA',
     
     // Numbers Section
     'numbers.title': 'En chiffres',
