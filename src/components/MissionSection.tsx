@@ -45,20 +45,20 @@ const MissionSection = () => {
               </div>
             </div>
 
-            {/* Mobile layout - stacked cards */}
-            <div className="md:hidden space-y-8">
+            {/* Mobile layout - stacked cards with translations */}
+            <div className="md:hidden space-y-6">
               <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-                <p style={{color: '#f4a756'}} className="text-xl font-bold">
+                <p style={{color: '#f4a756'}} className="text-lg font-bold leading-relaxed">
                   {t('mission.card1')}
                 </p>
               </div>
               <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-                <p style={{color: '#f4a756'}} className="text-xl font-bold">
+                <p style={{color: '#f4a756'}} className="text-lg font-bold leading-relaxed">
                   {t('mission.card2')}
                 </p>
               </div>
               <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-                <p style={{color: '#f4a756'}} className="text-xl font-bold whitespace-pre-line">
+                <p style={{color: '#f4a756'}} className="text-lg font-bold leading-relaxed whitespace-pre-line">
                   {t('mission.card3')}
                 </p>
               </div>
