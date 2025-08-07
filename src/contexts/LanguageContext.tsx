@@ -34,7 +34,7 @@ const translations = {
     
     // Solution Section
     'solution.title': 'Our solution',
-    'solution.subtitle': 'A disruptive innovation : an IoT device monitored by a software powered by AI',
+    'solution.subtitle': 'A disruptive innovation : an IoT device powered by AI',
     
     // Numbers Section
     'numbers.title': 'In numbers',
