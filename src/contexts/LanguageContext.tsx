@@ -82,7 +82,7 @@ const translations = {
     'contact.us': 'Nous contacter',
     
     // Hero Section
-    'hero.title': 'Première Interface',
+    'hero.title': '1ère Interface',
     'hero.subtitle': 'Homme-Machine qui reconnecte le',
     'hero.highlight': 'corps au cerveau',
     'hero.description1': "Digi'Skin par Advanced Care Technologies est un dispositif de retour haptique qui restaure les sensations de la manière la plus simple possible.",
