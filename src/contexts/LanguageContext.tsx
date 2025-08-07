@@ -91,7 +91,7 @@ const translations = {
     // Mission Section
     'mission.title': 'Notre mission est d\'améliorer la qualité de vie et l\'autonomie des patients',
     'mission.subtitle': 'Avec Digi\'Skin, nous visons à :',
-    'mission.card1': 'Restaurer les sensations',
+    'mission.card1': 'Restaurer des sensations',
     'mission.card2': 'Retrouver l\'équilibre',
     'mission.card3': 'Éviter douleurs et blessures',
     
