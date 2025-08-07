@@ -112,7 +112,7 @@ const translations = {
     'how.title': 'Comment ça marche ?',
     'how.feature1': 'Capteurs de force intégrés, collectant les informations du **toucher**',
     'how.feature2': '**Logiciel** transmettant les signaux en **temps réel** selon le contexte d\'utilisation ou le **profil sensoriel de l\'utilisateur**',
-    'how.feature3': 'Un **bracelet de stimulation** attaché au bras et équipé de **dispositifs de stimulation haptique**',
+    'how.feature3': 'Un **brassard de stimulation** attaché au bras stimulant le **système sensitif du patient**',
     
     // About Section
     'about.title': 'À propos de nous',
