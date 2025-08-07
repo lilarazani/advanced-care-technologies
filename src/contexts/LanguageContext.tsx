@@ -22,8 +22,8 @@ const translations = {
     'hero.title': 'First Human Machine',
     'hero.subtitle': 'Interface that reconnects the',
     'hero.highlight': 'body to the brain',
-    'hero.description1': "Digi'Skin by Advanced Care Technologies is a haptic feedback device that restores sensations in the simplest way possible.",
-    'hero.description2': 'It is based on a smart technology that combines embedded force sensors and real time processing powered by AI to provide accurate feedback.',
+    'hero.description1': "Advanced Care Technologies develops the first haptic feedback medical device: Digi'Skin",
+    'hero.description2': 'Based on a combination of integrated force sensors and AI-powered signal processing, Digi\'Skin restores the sense of touch by delivering real-time haptic stimuli, allowing patients to feel interactions with their environment.',
     
     // Mission Section
     'mission.title': "Our mission is to facilitate patients' daily lives and autonomy",
