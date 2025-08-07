@@ -47,7 +47,7 @@ const translations = {
     
     // How It Works Section
     'how.title': 'How does it work?',
-    'how.feature1': 'Embedded **force sensors** within **gloves of silicone**, collecting touch informations',
+    'how.feature1': 'Embedded **force sensors**, collecting touch informations',
     'how.feature2': "**Software** adjusting the haptic feedback signals in **real-time** based on the context of use or the **user's sensory profile**",
     'how.feature3': 'A stimulation **armband** attached to the limb and featuring **haptic stimulation devices**',
     
