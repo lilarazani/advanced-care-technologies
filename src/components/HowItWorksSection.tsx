@@ -24,7 +24,8 @@ const HowItWorksSection = () => {
                 <div>
                   <p dangerouslySetInnerHTML={{
                   __html: t('how.feature1').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                }} className="text-lg text-primary">Capteurs de force intégrés, collectant les informations du toucher</p>
+                }} className="text-lg text-primary">
+                  </p>
                 </div>
               </div>
 
@@ -36,7 +37,8 @@ const HowItWorksSection = () => {
                 <div>
                   <p className="text-lg text-primary" dangerouslySetInnerHTML={{
                   __html: t('how.feature2').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                }}>Logiciel ten temps réel selon le contexte d'utilisation ou le profil sensoriel de l'utilisateur</p>
+                }}>
+                  </p>
                 </div>
               </div>
 
@@ -48,7 +50,8 @@ const HowItWorksSection = () => {
                 <div>
                   <p className="text-lg text-primary" dangerouslySetInnerHTML={{
                   __html: t('how.feature3').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                }}>Un brassard de stimulation attaché au bras s</p>
+                }}>
+                  </p>
                 </div>
               </div>
             </div>
