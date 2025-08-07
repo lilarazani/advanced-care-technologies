@@ -90,7 +90,7 @@ const translations = {
     
     // Mission Section
     'mission.title': 'Notre mission est de faciliter la vie quotidienne et l\'autonomie des patients',
-    'mission.subtitle': 'Avec le retour haptique, nous visons à :',
+    'mission.subtitle': 'Avec Digi\'Skin, nous visons à :',
     'mission.card1': 'Restaurer les sensations',
     'mission.card2': 'Retrouver l\'équilibre',
     'mission.card3': 'Éviter douleurs et blessures',
