@@ -49,7 +49,7 @@ const translations = {
     'how.title': 'How does it work?',
     'how.feature1': 'Embedded **force sensors**, collecting touch informations',
     'how.feature2': "**Software** adjusting the haptic feedback signals in **real-time** based on the context of use or the **user's sensory profile**",
-    'how.feature3': 'A stimulation **armband** attached to the limb and featuring **haptic stimulation devices**',
+    'how.feature3': 'A stimulation **armband** attached to the limb stimulating the **patient\'s sensory system**',
     
     // About Section
     'about.title': 'About us',
