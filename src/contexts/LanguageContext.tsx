@@ -27,7 +27,7 @@ const translations = {
     
     // Mission Section
     'mission.title': "Our mission is to facilitate patients' daily lives and autonomy",
-    'mission.subtitle': 'With haptic feedback, we aim to :',
+    'mission.subtitle': 'With Digi\'Skin, we aim to :',
     'mission.card1': 'Restore sensations',
     'mission.card2': 'Regain balance',
     'mission.card3': 'Prevent pain and injuries',
