@@ -46,7 +46,7 @@ const translations = {
     'numbers.stat3.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">per patient</span>',
     
     // How It Works Section
-    'how.title': 'How it works',
+    'how.title': 'How it works?',
     'how.feature1': 'Embedded **force sensors** within **gloves of silicone**, collecting touch informations',
     'how.feature2': "**Software** adjusting the haptic feedback signals in **real-time** based on the context of use or the **user's sensory profile**",
     'how.feature3': 'A stimulation **armband** attached to the limb and featuring **haptic stimulation devices**',
@@ -109,7 +109,7 @@ const translations = {
     'numbers.stat3.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">par patient</span>',
     
     // How It Works Section
-    'how.title': 'Comment ça marche',
+    'how.title': 'Comment ça marche ?',
     'how.feature1': 'Capteurs de force intégrés dans des **gants en silicone**, collectant les informations de pression',
     'how.feature2': '**Logiciel** ajustant les signaux de retour haptique en **temps réel** selon le contexte d\'utilisation ou le **profil sensoriel de l\'utilisateur**',
     'how.feature3': 'Un **bracelet de stimulation** attaché au bras et équipé de **dispositifs de stimulation haptique**',
