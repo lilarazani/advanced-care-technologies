@@ -20,8 +20,8 @@ const HeroSection = () => {
             <span className="text-primary">{t('hero.highlight')}</span>
           </h1>
           
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-primary/80">
-            <p className="text-2xl">Advanced Care Technologies développe le premier dispositif médical de retour haptique : Digi'Skin.<br />Basé sur une combinaison de capteurs de force intégrés et de traitement du signal alimenté par l'IA, Digi'Skin restaure le sens du toucher, en délivrant des stimuli haptiques en temps réel, permettant au patient de ressentir les interactions avec son environnement.</p>
+          <div className="max-w-6xl mx-auto space-y-6 text-lg text-primary/80">
+            <p className="text-2xl">Advanced Care Technologies développe le premier dispositif médical de retour haptique : Digi'Skin.<br /><br />Basé sur une combinaison de capteurs de force intégrés et de traitement du signal alimenté par l'IA, Digi'Skin restaure le sens du toucher, en délivrant des stimuli haptiques en temps réel, permettant au patient de ressentir les interactions avec son environnement.</p>
           </div>
         </div>
       </div>
