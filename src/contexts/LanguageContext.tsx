@@ -89,7 +89,7 @@ const translations = {
     'hero.description2': 'Il est basé sur une technologie intelligente qui combine des capteurs de force intégrés et un traitement en temps réel alimenté par l\'IA pour fournir un retour précis.',
     
     // Mission Section
-    'mission.title': 'Notre mission est de faciliter la vie quotidienne et l\'autonomie des patients',
+    'mission.title': 'Notre mission est d\'améliorer la qualité de vie et l\'autonomie des patients',
     'mission.subtitle': 'Avec Digi\'Skin, nous visons à :',
     'mission.card1': 'Restaurer les sensations',
     'mission.card2': 'Retrouver l\'équilibre',
