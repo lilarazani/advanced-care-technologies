@@ -13,7 +13,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 pt-32 pb-20">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight text-primary">
             {t('hero.title')}<br />
             {t('hero.subtitle')}<br />
