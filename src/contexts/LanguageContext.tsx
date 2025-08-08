@@ -86,7 +86,7 @@ const translations = {
     'hero.subtitle': 'Homme-Machine qui reconnecte',
     'hero.highlight': 'le corps au cerveau',
     'hero.description1': "Advanced Care Technologies développe le premier dispositif médical de retour haptique : Digi'Skin",
-    'hero.description2': 'Digi\'Skin restaure le sens du toucher, en délivrant des stimuli haptiques en temps réel, permettant au patient de ressentir les interactions avec son environnement.',
+    'hero.description2': 'En restaurant le sens du toucher, Digi\'Skin permet au patient d\'interagir à nouveau avec son environnement',
     
     // Mission Section
     'mission.title': 'Notre mission est d\'améliorer la qualité de vie et l\'autonomie des patients',
