@@ -102,7 +102,7 @@ const translations = {
     // Numbers Section
     'numbers.title': 'En chiffres',
     'numbers.stat1': 'de la population mondiale a',
-    'numbers.stat1.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">une perte sensorielle</span>',
+    'numbers.stat1.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">une atteinte sensitive</span>',
     'numbers.stat2': 'des cas associés à',
     'numbers.stat2.line2': '<span class="font-bold" style="color: hsl(28, 95%, 65%)">des douleurs chroniques</span>',
     'numbers.stat3': 'Le coût moyen',
